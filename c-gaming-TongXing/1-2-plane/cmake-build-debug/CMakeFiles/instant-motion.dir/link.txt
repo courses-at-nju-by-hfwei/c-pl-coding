@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/instant-motion.dir/instant-motion.c.o -o instant-motion 
