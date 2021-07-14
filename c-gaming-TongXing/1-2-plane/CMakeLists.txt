@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.19)
-project(1-1-ball C)
+project(1-2-plane C)
 
 set(CMAKE_C_STANDARD 11)
 

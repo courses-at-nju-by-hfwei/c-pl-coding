@@ -6,6 +6,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
+#include <ncurses.h>
 
 int main() {
     int x = 5;
@@ -25,9 +26,9 @@ int main() {
         printf(" * \n");
 
         // getchar() will buffer the input
-        // getch() sends input immediately to stdin; however, it is not portable.
-        // Possible solution: use `getch()` in the `ncurses` library
-        direction = getchar();
+        // Solution: use `getch()` in the `ncurses` library
+        // which sends input immediately to stdin
+        direction = getch();
         switch (direction) {
             case 'h':
                 y--;
