@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hengxin/Documents/c-pl-class/c-pl-coding/c-gaming-TongXing/1-2-plane/instant-motion.c
+stdbool.h
+-
+stdlib.h
+-
+unistd.h
+-
+ncurses.h
+-
+

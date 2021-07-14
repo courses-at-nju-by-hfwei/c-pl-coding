@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/one-ball.dir/1-1-ball/one-ball.c.o -o one-ball 

@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/printw.dir/basics/printw.c.o -o printw 

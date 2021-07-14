@@ -1,1 +1,0 @@
-/usr/bin/cc -g CMakeFiles/bouncing-ball.dir/bouncing-ball.c.o -o bouncing-ball 

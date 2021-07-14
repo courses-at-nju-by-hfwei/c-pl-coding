@@ -1,0 +1,6 @@
+/home/hengxin/Documents/c-pl-class/c-pl-coding/ncurses/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/hengxin/Documents/c-pl-class/c-pl-coding/ncurses/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/hengxin/Documents/c-pl-class/c-pl-coding/ncurses/cmake-build-debug/CMakeFiles/hello-world.dir
+/home/hengxin/Documents/c-pl-class/c-pl-coding/ncurses/cmake-build-debug/CMakeFiles/scanw.dir
+/home/hengxin/Documents/c-pl-class/c-pl-coding/ncurses/cmake-build-debug/CMakeFiles/init.dir
+/home/hengxin/Documents/c-pl-class/c-pl-coding/ncurses/cmake-build-debug/CMakeFiles/printw.dir

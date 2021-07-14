@@ -1,1 +1,0 @@
-/usr/bin/cc -g CMakeFiles/falling-ball.dir/falling-ball.c.o -o falling-ball 

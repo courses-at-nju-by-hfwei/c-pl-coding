@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/reflecting-ball.dir/1-1-ball/reflecting-ball.c.o -o reflecting-ball 

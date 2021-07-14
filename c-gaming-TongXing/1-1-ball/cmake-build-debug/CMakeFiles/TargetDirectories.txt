@@ -1,6 +1,0 @@
-/home/hengxin/Documents/c-pl-class/c-pl-coding/c-gaming-TongXing/1-1-ball/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/hengxin/Documents/c-pl-class/c-pl-coding/c-gaming-TongXing/1-1-ball/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/hengxin/Documents/c-pl-class/c-pl-coding/c-gaming-TongXing/1-1-ball/cmake-build-debug/CMakeFiles/one-ball.dir
-/home/hengxin/Documents/c-pl-class/c-pl-coding/c-gaming-TongXing/1-1-ball/cmake-build-debug/CMakeFiles/falling-ball.dir
-/home/hengxin/Documents/c-pl-class/c-pl-coding/c-gaming-TongXing/1-1-ball/cmake-build-debug/CMakeFiles/reflecting-ball.dir
-/home/hengxin/Documents/c-pl-class/c-pl-coding/c-gaming-TongXing/1-1-ball/cmake-build-debug/CMakeFiles/bouncing-ball.dir

@@ -1,4 +1,0 @@
-/home/hengxin/Documents/c-pl-class/c-pl-coding/c-gaming-TongXing/1-2-plane/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/hengxin/Documents/c-pl-class/c-pl-coding/c-gaming-TongXing/1-2-plane/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/hengxin/Documents/c-pl-class/c-pl-coding/c-gaming-TongXing/1-2-plane/cmake-build-debug/CMakeFiles/instant-motion.dir
-/home/hengxin/Documents/c-pl-class/c-pl-coding/c-gaming-TongXing/1-2-plane/cmake-build-debug/CMakeFiles/motion.dir
