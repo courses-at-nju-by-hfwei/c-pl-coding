@@ -234,6 +234,45 @@ hello-world/fast:
 .PHONY : hello-world/fast
 
 #=============================================================================
+# Target rules for targets named chgat
+
+# Build rule for target.
+chgat: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 chgat
+.PHONY : chgat
+
+# fast build rule for target.
+chgat/fast:
+	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/chgat.dir/build.make ncurses/CMakeFiles/chgat.dir/build
+.PHONY : chgat/fast
+
+#=============================================================================
+# Target rules for targets named more-border
+
+# Build rule for target.
+more-border: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 more-border
+.PHONY : more-border
+
+# fast build rule for target.
+more-border/fast:
+	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/more-border.dir/build.make ncurses/CMakeFiles/more-border.dir/build
+.PHONY : more-border/fast
+
+#=============================================================================
+# Target rules for targets named comments-in-bold
+
+# Build rule for target.
+comments-in-bold: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 comments-in-bold
+.PHONY : comments-in-bold
+
+# fast build rule for target.
+comments-in-bold/fast:
+	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/comments-in-bold.dir/build.make ncurses/CMakeFiles/comments-in-bold.dir/build
+.PHONY : comments-in-bold/fast
+
+#=============================================================================
 # Target rules for targets named hello-world-ncurses
 
 # Build rule for target.
@@ -258,6 +297,19 @@ init: cmake_check_build_system
 init/fast:
 	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/init.dir/build.make ncurses/CMakeFiles/init.dir/build
 .PHONY : init/fast
+
+#=============================================================================
+# Target rules for targets named window-border
+
+# Build rule for target.
+window-border: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 window-border
+.PHONY : window-border
+
+# fast build rule for target.
+window-border/fast:
+	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/window-border.dir/build.make ncurses/CMakeFiles/window-border.dir/build
+.PHONY : window-border/fast
 
 #=============================================================================
 # Target rules for targets named printw
@@ -294,17 +346,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... bouncing-ball"
+	@echo "... chgat"
+	@echo "... comments-in-bold"
 	@echo "... falling-ball"
 	@echo "... hello-world"
 	@echo "... hello-world-ncurses"
 	@echo "... init"
 	@echo "... instant-motion"
+	@echo "... more-border"
 	@echo "... motion"
 	@echo "... one-ball"
 	@echo "... printw"
 	@echo "... reflecting-ball"
 	@echo "... scan"
 	@echo "... scanw"
+	@echo "... window-border"
 .PHONY : help
 
 

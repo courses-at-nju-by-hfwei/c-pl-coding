@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/window-border.dir/basics/window-border.c.o -o window-border 

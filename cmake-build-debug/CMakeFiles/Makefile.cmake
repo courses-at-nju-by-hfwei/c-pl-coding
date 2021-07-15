@@ -60,8 +60,12 @@ set(CMAKE_DEPEND_INFO_FILES
   "c-gaming-TongXing/CMakeFiles/bouncing-ball.dir/DependInfo.cmake"
   "lectures/CMakeFiles/scan.dir/DependInfo.cmake"
   "lectures/CMakeFiles/hello-world.dir/DependInfo.cmake"
+  "ncurses/CMakeFiles/chgat.dir/DependInfo.cmake"
+  "ncurses/CMakeFiles/more-border.dir/DependInfo.cmake"
+  "ncurses/CMakeFiles/comments-in-bold.dir/DependInfo.cmake"
   "ncurses/CMakeFiles/hello-world-ncurses.dir/DependInfo.cmake"
   "ncurses/CMakeFiles/init.dir/DependInfo.cmake"
+  "ncurses/CMakeFiles/window-border.dir/DependInfo.cmake"
   "ncurses/CMakeFiles/printw.dir/DependInfo.cmake"
   "ncurses/CMakeFiles/scanw.dir/DependInfo.cmake"
   )

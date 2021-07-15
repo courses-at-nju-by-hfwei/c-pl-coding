@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/comments-in-bold.dir/basics/comments-in-bold.c.o -o comments-in-bold 

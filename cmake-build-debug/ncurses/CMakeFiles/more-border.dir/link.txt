@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/more-border.dir/basics/more-border.c.o -o more-border 

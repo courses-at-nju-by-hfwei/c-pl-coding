@@ -130,6 +130,51 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+ncurses/CMakeFiles/chgat.dir/rule:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/chgat.dir/rule
+.PHONY : ncurses/CMakeFiles/chgat.dir/rule
+
+# Convenience name for target.
+chgat: ncurses/CMakeFiles/chgat.dir/rule
+
+.PHONY : chgat
+
+# fast build rule for target.
+chgat/fast:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/chgat.dir/build.make ncurses/CMakeFiles/chgat.dir/build
+.PHONY : chgat/fast
+
+# Convenience name for target.
+ncurses/CMakeFiles/more-border.dir/rule:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/more-border.dir/rule
+.PHONY : ncurses/CMakeFiles/more-border.dir/rule
+
+# Convenience name for target.
+more-border: ncurses/CMakeFiles/more-border.dir/rule
+
+.PHONY : more-border
+
+# fast build rule for target.
+more-border/fast:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/more-border.dir/build.make ncurses/CMakeFiles/more-border.dir/build
+.PHONY : more-border/fast
+
+# Convenience name for target.
+ncurses/CMakeFiles/comments-in-bold.dir/rule:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/comments-in-bold.dir/rule
+.PHONY : ncurses/CMakeFiles/comments-in-bold.dir/rule
+
+# Convenience name for target.
+comments-in-bold: ncurses/CMakeFiles/comments-in-bold.dir/rule
+
+.PHONY : comments-in-bold
+
+# fast build rule for target.
+comments-in-bold/fast:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/comments-in-bold.dir/build.make ncurses/CMakeFiles/comments-in-bold.dir/build
+.PHONY : comments-in-bold/fast
+
+# Convenience name for target.
 ncurses/CMakeFiles/hello-world-ncurses.dir/rule:
 	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/hello-world-ncurses.dir/rule
 .PHONY : ncurses/CMakeFiles/hello-world-ncurses.dir/rule
@@ -160,6 +205,21 @@ init/fast:
 .PHONY : init/fast
 
 # Convenience name for target.
+ncurses/CMakeFiles/window-border.dir/rule:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/window-border.dir/rule
+.PHONY : ncurses/CMakeFiles/window-border.dir/rule
+
+# Convenience name for target.
+window-border: ncurses/CMakeFiles/window-border.dir/rule
+
+.PHONY : window-border
+
+# fast build rule for target.
+window-border/fast:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/window-border.dir/build.make ncurses/CMakeFiles/window-border.dir/build
+.PHONY : window-border/fast
+
+# Convenience name for target.
 ncurses/CMakeFiles/printw.dir/rule:
 	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/printw.dir/rule
 .PHONY : ncurses/CMakeFiles/printw.dir/rule
@@ -188,6 +248,60 @@ scanw: ncurses/CMakeFiles/scanw.dir/rule
 scanw/fast:
 	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/scanw.dir/build.make ncurses/CMakeFiles/scanw.dir/build
 .PHONY : scanw/fast
+
+basics/chgat.o: basics/chgat.c.o
+
+.PHONY : basics/chgat.o
+
+# target to build an object file
+basics/chgat.c.o:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/chgat.dir/build.make ncurses/CMakeFiles/chgat.dir/basics/chgat.c.o
+.PHONY : basics/chgat.c.o
+
+basics/chgat.i: basics/chgat.c.i
+
+.PHONY : basics/chgat.i
+
+# target to preprocess a source file
+basics/chgat.c.i:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/chgat.dir/build.make ncurses/CMakeFiles/chgat.dir/basics/chgat.c.i
+.PHONY : basics/chgat.c.i
+
+basics/chgat.s: basics/chgat.c.s
+
+.PHONY : basics/chgat.s
+
+# target to generate assembly for a file
+basics/chgat.c.s:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/chgat.dir/build.make ncurses/CMakeFiles/chgat.dir/basics/chgat.c.s
+.PHONY : basics/chgat.c.s
+
+basics/comments-in-bold.o: basics/comments-in-bold.c.o
+
+.PHONY : basics/comments-in-bold.o
+
+# target to build an object file
+basics/comments-in-bold.c.o:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/comments-in-bold.dir/build.make ncurses/CMakeFiles/comments-in-bold.dir/basics/comments-in-bold.c.o
+.PHONY : basics/comments-in-bold.c.o
+
+basics/comments-in-bold.i: basics/comments-in-bold.c.i
+
+.PHONY : basics/comments-in-bold.i
+
+# target to preprocess a source file
+basics/comments-in-bold.c.i:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/comments-in-bold.dir/build.make ncurses/CMakeFiles/comments-in-bold.dir/basics/comments-in-bold.c.i
+.PHONY : basics/comments-in-bold.c.i
+
+basics/comments-in-bold.s: basics/comments-in-bold.c.s
+
+.PHONY : basics/comments-in-bold.s
+
+# target to generate assembly for a file
+basics/comments-in-bold.c.s:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/comments-in-bold.dir/build.make ncurses/CMakeFiles/comments-in-bold.dir/basics/comments-in-bold.c.s
+.PHONY : basics/comments-in-bold.c.s
 
 basics/hello-world.o: basics/hello-world.c.o
 
@@ -243,6 +357,33 @@ basics/init.c.s:
 	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/init.dir/build.make ncurses/CMakeFiles/init.dir/basics/init.c.s
 .PHONY : basics/init.c.s
 
+basics/more-border.o: basics/more-border.c.o
+
+.PHONY : basics/more-border.o
+
+# target to build an object file
+basics/more-border.c.o:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/more-border.dir/build.make ncurses/CMakeFiles/more-border.dir/basics/more-border.c.o
+.PHONY : basics/more-border.c.o
+
+basics/more-border.i: basics/more-border.c.i
+
+.PHONY : basics/more-border.i
+
+# target to preprocess a source file
+basics/more-border.c.i:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/more-border.dir/build.make ncurses/CMakeFiles/more-border.dir/basics/more-border.c.i
+.PHONY : basics/more-border.c.i
+
+basics/more-border.s: basics/more-border.c.s
+
+.PHONY : basics/more-border.s
+
+# target to generate assembly for a file
+basics/more-border.c.s:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/more-border.dir/build.make ncurses/CMakeFiles/more-border.dir/basics/more-border.c.s
+.PHONY : basics/more-border.c.s
+
 basics/printw.o: basics/printw.c.o
 
 .PHONY : basics/printw.o
@@ -297,6 +438,33 @@ basics/scanw.c.s:
 	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/scanw.dir/build.make ncurses/CMakeFiles/scanw.dir/basics/scanw.c.s
 .PHONY : basics/scanw.c.s
 
+basics/window-border.o: basics/window-border.c.o
+
+.PHONY : basics/window-border.o
+
+# target to build an object file
+basics/window-border.c.o:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/window-border.dir/build.make ncurses/CMakeFiles/window-border.dir/basics/window-border.c.o
+.PHONY : basics/window-border.c.o
+
+basics/window-border.i: basics/window-border.c.i
+
+.PHONY : basics/window-border.i
+
+# target to preprocess a source file
+basics/window-border.c.i:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/window-border.dir/build.make ncurses/CMakeFiles/window-border.dir/basics/window-border.c.i
+.PHONY : basics/window-border.c.i
+
+basics/window-border.s: basics/window-border.c.s
+
+.PHONY : basics/window-border.s
+
+# target to generate assembly for a file
+basics/window-border.c.s:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/window-border.dir/build.make ncurses/CMakeFiles/window-border.dir/basics/window-border.c.s
+.PHONY : basics/window-border.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -305,22 +473,38 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... chgat"
+	@echo "... comments-in-bold"
 	@echo "... hello-world-ncurses"
 	@echo "... init"
+	@echo "... more-border"
 	@echo "... printw"
 	@echo "... scanw"
+	@echo "... window-border"
+	@echo "... basics/chgat.o"
+	@echo "... basics/chgat.i"
+	@echo "... basics/chgat.s"
+	@echo "... basics/comments-in-bold.o"
+	@echo "... basics/comments-in-bold.i"
+	@echo "... basics/comments-in-bold.s"
 	@echo "... basics/hello-world.o"
 	@echo "... basics/hello-world.i"
 	@echo "... basics/hello-world.s"
 	@echo "... basics/init.o"
 	@echo "... basics/init.i"
 	@echo "... basics/init.s"
+	@echo "... basics/more-border.o"
+	@echo "... basics/more-border.i"
+	@echo "... basics/more-border.s"
 	@echo "... basics/printw.o"
 	@echo "... basics/printw.i"
 	@echo "... basics/printw.s"
 	@echo "... basics/scanw.o"
 	@echo "... basics/scanw.i"
 	@echo "... basics/scanw.s"
+	@echo "... basics/window-border.o"
+	@echo "... basics/window-border.i"
+	@echo "... basics/window-border.s"
 .PHONY : help
 
 
