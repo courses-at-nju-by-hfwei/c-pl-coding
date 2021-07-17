@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/menu-basics.dir/menus/menu-basics.c.o -o menu-basics 

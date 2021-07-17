@@ -13,12 +13,14 @@
 /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/lectures/CMakeFiles/scan.dir
 /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/lectures/CMakeFiles/hello-world.dir
 /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/CMakeFiles/rebuild_cache.dir
+/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/CMakeFiles/menu-basics.dir
 /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/CMakeFiles/panel-hiding-showing.dir
 /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/CMakeFiles/edit_cache.dir
 /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/CMakeFiles/panel-browsing.dir
 /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/CMakeFiles/panel-basics.dir
 /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/CMakeFiles/acs.dir
 /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/CMakeFiles/mouse.dir
+/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/CMakeFiles/menu-window.dir
 /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/CMakeFiles/panel-moving-resizing.dir
 /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/CMakeFiles/scanw.dir
 /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/CMakeFiles/window-border.dir

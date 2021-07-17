@@ -234,6 +234,19 @@ hello-world/fast:
 .PHONY : hello-world/fast
 
 #=============================================================================
+# Target rules for targets named menu-basics
+
+# Build rule for target.
+menu-basics: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 menu-basics
+.PHONY : menu-basics
+
+# fast build rule for target.
+menu-basics/fast:
+	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-basics.dir/build.make ncurses/CMakeFiles/menu-basics.dir/build
+.PHONY : menu-basics/fast
+
+#=============================================================================
 # Target rules for targets named panel-hiding-showing
 
 # Build rule for target.
@@ -297,6 +310,19 @@ mouse: cmake_check_build_system
 mouse/fast:
 	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/mouse.dir/build.make ncurses/CMakeFiles/mouse.dir/build
 .PHONY : mouse/fast
+
+#=============================================================================
+# Target rules for targets named menu-window
+
+# Build rule for target.
+menu-window: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 menu-window
+.PHONY : menu-window
+
+# fast build rule for target.
+menu-window/fast:
+	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-window.dir/build.make ncurses/CMakeFiles/menu-window.dir/build
+.PHONY : menu-window/fast
 
 #=============================================================================
 # Target rules for targets named panel-moving-resizing
@@ -460,6 +486,8 @@ help:
 	@echo "... init"
 	@echo "... instant-motion"
 	@echo "... key"
+	@echo "... menu-basics"
+	@echo "... menu-window"
 	@echo "... more-border"
 	@echo "... motion"
 	@echo "... mouse"

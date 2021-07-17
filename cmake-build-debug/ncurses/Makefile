@@ -130,6 +130,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+ncurses/CMakeFiles/menu-basics.dir/rule:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/menu-basics.dir/rule
+.PHONY : ncurses/CMakeFiles/menu-basics.dir/rule
+
+# Convenience name for target.
+menu-basics: ncurses/CMakeFiles/menu-basics.dir/rule
+
+.PHONY : menu-basics
+
+# fast build rule for target.
+menu-basics/fast:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-basics.dir/build.make ncurses/CMakeFiles/menu-basics.dir/build
+.PHONY : menu-basics/fast
+
+# Convenience name for target.
 ncurses/CMakeFiles/panel-hiding-showing.dir/rule:
 	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/panel-hiding-showing.dir/rule
 .PHONY : ncurses/CMakeFiles/panel-hiding-showing.dir/rule
@@ -203,6 +218,21 @@ mouse: ncurses/CMakeFiles/mouse.dir/rule
 mouse/fast:
 	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/mouse.dir/build.make ncurses/CMakeFiles/mouse.dir/build
 .PHONY : mouse/fast
+
+# Convenience name for target.
+ncurses/CMakeFiles/menu-window.dir/rule:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/menu-window.dir/rule
+.PHONY : ncurses/CMakeFiles/menu-window.dir/rule
+
+# Convenience name for target.
+menu-window: ncurses/CMakeFiles/menu-window.dir/rule
+
+.PHONY : menu-window
+
+# fast build rule for target.
+menu-window/fast:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-window.dir/build.make ncurses/CMakeFiles/menu-window.dir/build
+.PHONY : menu-window/fast
 
 # Convenience name for target.
 ncurses/CMakeFiles/panel-moving-resizing.dir/rule:
@@ -693,6 +723,60 @@ basics/window-border.c.s:
 	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/window-border.dir/build.make ncurses/CMakeFiles/window-border.dir/basics/window-border.c.s
 .PHONY : basics/window-border.c.s
 
+menus/menu-basics.o: menus/menu-basics.c.o
+
+.PHONY : menus/menu-basics.o
+
+# target to build an object file
+menus/menu-basics.c.o:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-basics.dir/build.make ncurses/CMakeFiles/menu-basics.dir/menus/menu-basics.c.o
+.PHONY : menus/menu-basics.c.o
+
+menus/menu-basics.i: menus/menu-basics.c.i
+
+.PHONY : menus/menu-basics.i
+
+# target to preprocess a source file
+menus/menu-basics.c.i:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-basics.dir/build.make ncurses/CMakeFiles/menu-basics.dir/menus/menu-basics.c.i
+.PHONY : menus/menu-basics.c.i
+
+menus/menu-basics.s: menus/menu-basics.c.s
+
+.PHONY : menus/menu-basics.s
+
+# target to generate assembly for a file
+menus/menu-basics.c.s:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-basics.dir/build.make ncurses/CMakeFiles/menu-basics.dir/menus/menu-basics.c.s
+.PHONY : menus/menu-basics.c.s
+
+menus/menu-window.o: menus/menu-window.c.o
+
+.PHONY : menus/menu-window.o
+
+# target to build an object file
+menus/menu-window.c.o:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-window.dir/build.make ncurses/CMakeFiles/menu-window.dir/menus/menu-window.c.o
+.PHONY : menus/menu-window.c.o
+
+menus/menu-window.i: menus/menu-window.c.i
+
+.PHONY : menus/menu-window.i
+
+# target to preprocess a source file
+menus/menu-window.c.i:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-window.dir/build.make ncurses/CMakeFiles/menu-window.dir/menus/menu-window.c.i
+.PHONY : menus/menu-window.c.i
+
+menus/menu-window.s: menus/menu-window.c.s
+
+.PHONY : menus/menu-window.s
+
+# target to generate assembly for a file
+menus/menu-window.c.s:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-window.dir/build.make ncurses/CMakeFiles/menu-window.dir/menus/menu-window.c.s
+.PHONY : menus/menu-window.c.s
+
 panels/panel-basics.o: panels/panel-basics.c.o
 
 .PHONY : panels/panel-basics.o
@@ -816,6 +900,8 @@ help:
 	@echo "... hello-world-ncurses"
 	@echo "... init"
 	@echo "... key"
+	@echo "... menu-basics"
+	@echo "... menu-window"
 	@echo "... more-border"
 	@echo "... mouse"
 	@echo "... panel-basics"
@@ -861,6 +947,12 @@ help:
 	@echo "... basics/window-border.o"
 	@echo "... basics/window-border.i"
 	@echo "... basics/window-border.s"
+	@echo "... menus/menu-basics.o"
+	@echo "... menus/menu-basics.i"
+	@echo "... menus/menu-basics.s"
+	@echo "... menus/menu-window.o"
+	@echo "... menus/menu-window.i"
+	@echo "... menus/menu-window.s"
 	@echo "... panels/panel-basics.o"
 	@echo "... panels/panel-basics.i"
 	@echo "... panels/panel-basics.s"

@@ -17,3 +17,6 @@ add_executable(panel-basics panels/panel-basics.c)
 add_executable(panel-browsing panels/panel-browsing.c)
 add_executable(panel-moving-resizing panels/panel-moving-resizing.c)
 add_executable(panel-hiding-showing panels/panel-hiding-showing.c)
+
+add_executable(menu-basics menus/menu-basics.c)
+add_executable(menu-window menus/menu-window.c)

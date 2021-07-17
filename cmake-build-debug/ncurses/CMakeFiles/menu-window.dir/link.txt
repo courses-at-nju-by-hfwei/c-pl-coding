@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/menu-window.dir/menus/menu-window.c.o -o menu-window 
