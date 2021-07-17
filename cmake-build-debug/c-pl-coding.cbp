@@ -389,8 +389,8 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/lectures/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="chgat">
-				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/chgat" prefix_auto="0" extension_auto="0"/>
+			<Target title="panel-hiding-showing">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/panel-hiding-showing" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -405,14 +405,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 chgat"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 panel-hiding-showing"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="chgat/fast">
-				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/chgat" prefix_auto="0" extension_auto="0"/>
+			<Target title="panel-hiding-showing/fast">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/panel-hiding-showing" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -427,14 +427,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 chgat/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 panel-hiding-showing/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="more-border">
-				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/more-border" prefix_auto="0" extension_auto="0"/>
+			<Target title="panel-browsing">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/panel-browsing" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -449,14 +449,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 more-border"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 panel-browsing"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="more-border/fast">
-				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/more-border" prefix_auto="0" extension_auto="0"/>
+			<Target title="panel-browsing/fast">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/panel-browsing" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -471,14 +471,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 more-border/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 panel-browsing/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="comments-in-bold">
-				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/comments-in-bold" prefix_auto="0" extension_auto="0"/>
+			<Target title="panel-basics">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/panel-basics" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -493,14 +493,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 comments-in-bold"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 panel-basics"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="comments-in-bold/fast">
-				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/comments-in-bold" prefix_auto="0" extension_auto="0"/>
+			<Target title="panel-basics/fast">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/panel-basics" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -515,14 +515,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 comments-in-bold/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 panel-basics/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="hello-world-ncurses">
-				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/hello-world-ncurses" prefix_auto="0" extension_auto="0"/>
+			<Target title="acs">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/acs" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -537,14 +537,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 hello-world-ncurses"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 acs"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="hello-world-ncurses/fast">
-				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/hello-world-ncurses" prefix_auto="0" extension_auto="0"/>
+			<Target title="acs/fast">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/acs" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -559,14 +559,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 hello-world-ncurses/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 acs/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="init">
-				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/init" prefix_auto="0" extension_auto="0"/>
+			<Target title="mouse">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/mouse" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -581,14 +581,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 init"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 mouse"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="init/fast">
-				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/init" prefix_auto="0" extension_auto="0"/>
+			<Target title="mouse/fast">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/mouse" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -603,14 +603,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 init/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 mouse/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="window-border">
-				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/window-border" prefix_auto="0" extension_auto="0"/>
+			<Target title="panel-moving-resizing">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/panel-moving-resizing" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -625,14 +625,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 window-border"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 panel-moving-resizing"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="window-border/fast">
-				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/window-border" prefix_auto="0" extension_auto="0"/>
+			<Target title="panel-moving-resizing/fast">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/panel-moving-resizing" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -647,51 +647,7 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 window-border/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="printw">
-				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/printw" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 printw"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="printw/fast">
-				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/printw" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 printw/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 panel-moving-resizing/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
@@ -741,6 +697,402 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="window-border">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/window-border" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 window-border"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="window-border/fast">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/window-border" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 window-border/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="init">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/init" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 init"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="init/fast">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/init" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 init/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello-world-ncurses">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/hello-world-ncurses" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 hello-world-ncurses"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello-world-ncurses/fast">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/hello-world-ncurses" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 hello-world-ncurses/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="printw">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/printw" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 printw"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="printw/fast">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/printw" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 printw/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="more-border">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/more-border" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 more-border"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="more-border/fast">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/more-border" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 more-border/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chgat">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/chgat" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 chgat"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chgat/fast">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/chgat" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 chgat/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="color">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/color" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 color"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="color/fast">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/color" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 color/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="comments-in-bold">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/comments-in-bold" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 comments-in-bold"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="comments-in-bold/fast">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/comments-in-bold" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 comments-in-bold/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="key">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/key" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 key"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="key/fast">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/key" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 key/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="/home/hengxin/Documents/c-pl-class/c-pl-coding/c-gaming-TongXing/1-1-ball/bouncing-ball.c">
 			<Option target="bouncing-ball"/>
@@ -766,8 +1118,14 @@
 		<Unit filename="/home/hengxin/Documents/c-pl-class/c-pl-coding/lectures/io/scan.c">
 			<Option target="scan"/>
 		</Unit>
+		<Unit filename="/home/hengxin/Documents/c-pl-class/c-pl-coding/ncurses/basics/acs.c">
+			<Option target="acs"/>
+		</Unit>
 		<Unit filename="/home/hengxin/Documents/c-pl-class/c-pl-coding/ncurses/basics/chgat.c">
 			<Option target="chgat"/>
+		</Unit>
+		<Unit filename="/home/hengxin/Documents/c-pl-class/c-pl-coding/ncurses/basics/color.c">
+			<Option target="color"/>
 		</Unit>
 		<Unit filename="/home/hengxin/Documents/c-pl-class/c-pl-coding/ncurses/basics/comments-in-bold.c">
 			<Option target="comments-in-bold"/>
@@ -778,8 +1136,14 @@
 		<Unit filename="/home/hengxin/Documents/c-pl-class/c-pl-coding/ncurses/basics/init.c">
 			<Option target="init"/>
 		</Unit>
+		<Unit filename="/home/hengxin/Documents/c-pl-class/c-pl-coding/ncurses/basics/key.c">
+			<Option target="key"/>
+		</Unit>
 		<Unit filename="/home/hengxin/Documents/c-pl-class/c-pl-coding/ncurses/basics/more-border.c">
 			<Option target="more-border"/>
+		</Unit>
+		<Unit filename="/home/hengxin/Documents/c-pl-class/c-pl-coding/ncurses/basics/mouse.c">
+			<Option target="mouse"/>
 		</Unit>
 		<Unit filename="/home/hengxin/Documents/c-pl-class/c-pl-coding/ncurses/basics/printw.c">
 			<Option target="printw"/>
@@ -789,6 +1153,18 @@
 		</Unit>
 		<Unit filename="/home/hengxin/Documents/c-pl-class/c-pl-coding/ncurses/basics/window-border.c">
 			<Option target="window-border"/>
+		</Unit>
+		<Unit filename="/home/hengxin/Documents/c-pl-class/c-pl-coding/ncurses/panels/panel-basics.c">
+			<Option target="panel-basics"/>
+		</Unit>
+		<Unit filename="/home/hengxin/Documents/c-pl-class/c-pl-coding/ncurses/panels/panel-browsing.c">
+			<Option target="panel-browsing"/>
+		</Unit>
+		<Unit filename="/home/hengxin/Documents/c-pl-class/c-pl-coding/ncurses/panels/panel-hiding-showing.c">
+			<Option target="panel-hiding-showing"/>
+		</Unit>
+		<Unit filename="/home/hengxin/Documents/c-pl-class/c-pl-coding/ncurses/panels/panel-moving-resizing.c">
+			<Option target="panel-moving-resizing"/>
 		</Unit>
 		<Unit filename="/home/hengxin/Documents/c-pl-class/c-pl-coding/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

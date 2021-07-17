@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/mouse.dir/basics/mouse.c.o -o mouse 

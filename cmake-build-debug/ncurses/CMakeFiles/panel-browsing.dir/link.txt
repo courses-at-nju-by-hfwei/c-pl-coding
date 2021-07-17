@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/panel-browsing.dir/panels/panel-browsing.c.o -o panel-browsing 

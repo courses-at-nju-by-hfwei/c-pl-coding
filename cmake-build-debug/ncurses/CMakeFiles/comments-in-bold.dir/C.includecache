@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hengxin/Documents/c-pl-class/c-pl-coding/ncurses/basics/comments-in-bold.c
+ncurses.h
+-
+stdlib.h
+-
+

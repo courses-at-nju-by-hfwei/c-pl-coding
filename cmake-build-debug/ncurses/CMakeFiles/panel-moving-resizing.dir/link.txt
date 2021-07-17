@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/panel-moving-resizing.dir/panels/panel-moving-resizing.c.o -o panel-moving-resizing 

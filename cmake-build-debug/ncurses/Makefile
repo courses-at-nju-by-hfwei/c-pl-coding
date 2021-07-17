@@ -130,79 +130,109 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-ncurses/CMakeFiles/chgat.dir/rule:
-	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/chgat.dir/rule
-.PHONY : ncurses/CMakeFiles/chgat.dir/rule
+ncurses/CMakeFiles/panel-hiding-showing.dir/rule:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/panel-hiding-showing.dir/rule
+.PHONY : ncurses/CMakeFiles/panel-hiding-showing.dir/rule
 
 # Convenience name for target.
-chgat: ncurses/CMakeFiles/chgat.dir/rule
+panel-hiding-showing: ncurses/CMakeFiles/panel-hiding-showing.dir/rule
 
-.PHONY : chgat
+.PHONY : panel-hiding-showing
 
 # fast build rule for target.
-chgat/fast:
-	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/chgat.dir/build.make ncurses/CMakeFiles/chgat.dir/build
-.PHONY : chgat/fast
+panel-hiding-showing/fast:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/panel-hiding-showing.dir/build.make ncurses/CMakeFiles/panel-hiding-showing.dir/build
+.PHONY : panel-hiding-showing/fast
 
 # Convenience name for target.
-ncurses/CMakeFiles/more-border.dir/rule:
-	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/more-border.dir/rule
-.PHONY : ncurses/CMakeFiles/more-border.dir/rule
+ncurses/CMakeFiles/panel-browsing.dir/rule:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/panel-browsing.dir/rule
+.PHONY : ncurses/CMakeFiles/panel-browsing.dir/rule
 
 # Convenience name for target.
-more-border: ncurses/CMakeFiles/more-border.dir/rule
+panel-browsing: ncurses/CMakeFiles/panel-browsing.dir/rule
 
-.PHONY : more-border
+.PHONY : panel-browsing
 
 # fast build rule for target.
-more-border/fast:
-	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/more-border.dir/build.make ncurses/CMakeFiles/more-border.dir/build
-.PHONY : more-border/fast
+panel-browsing/fast:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/panel-browsing.dir/build.make ncurses/CMakeFiles/panel-browsing.dir/build
+.PHONY : panel-browsing/fast
 
 # Convenience name for target.
-ncurses/CMakeFiles/comments-in-bold.dir/rule:
-	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/comments-in-bold.dir/rule
-.PHONY : ncurses/CMakeFiles/comments-in-bold.dir/rule
+ncurses/CMakeFiles/panel-basics.dir/rule:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/panel-basics.dir/rule
+.PHONY : ncurses/CMakeFiles/panel-basics.dir/rule
 
 # Convenience name for target.
-comments-in-bold: ncurses/CMakeFiles/comments-in-bold.dir/rule
+panel-basics: ncurses/CMakeFiles/panel-basics.dir/rule
 
-.PHONY : comments-in-bold
+.PHONY : panel-basics
 
 # fast build rule for target.
-comments-in-bold/fast:
-	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/comments-in-bold.dir/build.make ncurses/CMakeFiles/comments-in-bold.dir/build
-.PHONY : comments-in-bold/fast
+panel-basics/fast:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/panel-basics.dir/build.make ncurses/CMakeFiles/panel-basics.dir/build
+.PHONY : panel-basics/fast
 
 # Convenience name for target.
-ncurses/CMakeFiles/hello-world-ncurses.dir/rule:
-	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/hello-world-ncurses.dir/rule
-.PHONY : ncurses/CMakeFiles/hello-world-ncurses.dir/rule
+ncurses/CMakeFiles/acs.dir/rule:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/acs.dir/rule
+.PHONY : ncurses/CMakeFiles/acs.dir/rule
 
 # Convenience name for target.
-hello-world-ncurses: ncurses/CMakeFiles/hello-world-ncurses.dir/rule
+acs: ncurses/CMakeFiles/acs.dir/rule
 
-.PHONY : hello-world-ncurses
+.PHONY : acs
 
 # fast build rule for target.
-hello-world-ncurses/fast:
-	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/hello-world-ncurses.dir/build.make ncurses/CMakeFiles/hello-world-ncurses.dir/build
-.PHONY : hello-world-ncurses/fast
+acs/fast:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/acs.dir/build.make ncurses/CMakeFiles/acs.dir/build
+.PHONY : acs/fast
 
 # Convenience name for target.
-ncurses/CMakeFiles/init.dir/rule:
-	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/init.dir/rule
-.PHONY : ncurses/CMakeFiles/init.dir/rule
+ncurses/CMakeFiles/mouse.dir/rule:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/mouse.dir/rule
+.PHONY : ncurses/CMakeFiles/mouse.dir/rule
 
 # Convenience name for target.
-init: ncurses/CMakeFiles/init.dir/rule
+mouse: ncurses/CMakeFiles/mouse.dir/rule
 
-.PHONY : init
+.PHONY : mouse
 
 # fast build rule for target.
-init/fast:
-	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/init.dir/build.make ncurses/CMakeFiles/init.dir/build
-.PHONY : init/fast
+mouse/fast:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/mouse.dir/build.make ncurses/CMakeFiles/mouse.dir/build
+.PHONY : mouse/fast
+
+# Convenience name for target.
+ncurses/CMakeFiles/panel-moving-resizing.dir/rule:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/panel-moving-resizing.dir/rule
+.PHONY : ncurses/CMakeFiles/panel-moving-resizing.dir/rule
+
+# Convenience name for target.
+panel-moving-resizing: ncurses/CMakeFiles/panel-moving-resizing.dir/rule
+
+.PHONY : panel-moving-resizing
+
+# fast build rule for target.
+panel-moving-resizing/fast:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/panel-moving-resizing.dir/build.make ncurses/CMakeFiles/panel-moving-resizing.dir/build
+.PHONY : panel-moving-resizing/fast
+
+# Convenience name for target.
+ncurses/CMakeFiles/scanw.dir/rule:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/scanw.dir/rule
+.PHONY : ncurses/CMakeFiles/scanw.dir/rule
+
+# Convenience name for target.
+scanw: ncurses/CMakeFiles/scanw.dir/rule
+
+.PHONY : scanw
+
+# fast build rule for target.
+scanw/fast:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/scanw.dir/build.make ncurses/CMakeFiles/scanw.dir/build
+.PHONY : scanw/fast
 
 # Convenience name for target.
 ncurses/CMakeFiles/window-border.dir/rule:
@@ -220,6 +250,36 @@ window-border/fast:
 .PHONY : window-border/fast
 
 # Convenience name for target.
+ncurses/CMakeFiles/init.dir/rule:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/init.dir/rule
+.PHONY : ncurses/CMakeFiles/init.dir/rule
+
+# Convenience name for target.
+init: ncurses/CMakeFiles/init.dir/rule
+
+.PHONY : init
+
+# fast build rule for target.
+init/fast:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/init.dir/build.make ncurses/CMakeFiles/init.dir/build
+.PHONY : init/fast
+
+# Convenience name for target.
+ncurses/CMakeFiles/hello-world-ncurses.dir/rule:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/hello-world-ncurses.dir/rule
+.PHONY : ncurses/CMakeFiles/hello-world-ncurses.dir/rule
+
+# Convenience name for target.
+hello-world-ncurses: ncurses/CMakeFiles/hello-world-ncurses.dir/rule
+
+.PHONY : hello-world-ncurses
+
+# fast build rule for target.
+hello-world-ncurses/fast:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/hello-world-ncurses.dir/build.make ncurses/CMakeFiles/hello-world-ncurses.dir/build
+.PHONY : hello-world-ncurses/fast
+
+# Convenience name for target.
 ncurses/CMakeFiles/printw.dir/rule:
 	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/printw.dir/rule
 .PHONY : ncurses/CMakeFiles/printw.dir/rule
@@ -235,19 +295,106 @@ printw/fast:
 .PHONY : printw/fast
 
 # Convenience name for target.
-ncurses/CMakeFiles/scanw.dir/rule:
-	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/scanw.dir/rule
-.PHONY : ncurses/CMakeFiles/scanw.dir/rule
+ncurses/CMakeFiles/more-border.dir/rule:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/more-border.dir/rule
+.PHONY : ncurses/CMakeFiles/more-border.dir/rule
 
 # Convenience name for target.
-scanw: ncurses/CMakeFiles/scanw.dir/rule
+more-border: ncurses/CMakeFiles/more-border.dir/rule
 
-.PHONY : scanw
+.PHONY : more-border
 
 # fast build rule for target.
-scanw/fast:
-	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/scanw.dir/build.make ncurses/CMakeFiles/scanw.dir/build
-.PHONY : scanw/fast
+more-border/fast:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/more-border.dir/build.make ncurses/CMakeFiles/more-border.dir/build
+.PHONY : more-border/fast
+
+# Convenience name for target.
+ncurses/CMakeFiles/chgat.dir/rule:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/chgat.dir/rule
+.PHONY : ncurses/CMakeFiles/chgat.dir/rule
+
+# Convenience name for target.
+chgat: ncurses/CMakeFiles/chgat.dir/rule
+
+.PHONY : chgat
+
+# fast build rule for target.
+chgat/fast:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/chgat.dir/build.make ncurses/CMakeFiles/chgat.dir/build
+.PHONY : chgat/fast
+
+# Convenience name for target.
+ncurses/CMakeFiles/color.dir/rule:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/color.dir/rule
+.PHONY : ncurses/CMakeFiles/color.dir/rule
+
+# Convenience name for target.
+color: ncurses/CMakeFiles/color.dir/rule
+
+.PHONY : color
+
+# fast build rule for target.
+color/fast:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/color.dir/build.make ncurses/CMakeFiles/color.dir/build
+.PHONY : color/fast
+
+# Convenience name for target.
+ncurses/CMakeFiles/comments-in-bold.dir/rule:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/comments-in-bold.dir/rule
+.PHONY : ncurses/CMakeFiles/comments-in-bold.dir/rule
+
+# Convenience name for target.
+comments-in-bold: ncurses/CMakeFiles/comments-in-bold.dir/rule
+
+.PHONY : comments-in-bold
+
+# fast build rule for target.
+comments-in-bold/fast:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/comments-in-bold.dir/build.make ncurses/CMakeFiles/comments-in-bold.dir/build
+.PHONY : comments-in-bold/fast
+
+# Convenience name for target.
+ncurses/CMakeFiles/key.dir/rule:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/key.dir/rule
+.PHONY : ncurses/CMakeFiles/key.dir/rule
+
+# Convenience name for target.
+key: ncurses/CMakeFiles/key.dir/rule
+
+.PHONY : key
+
+# fast build rule for target.
+key/fast:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/key.dir/build.make ncurses/CMakeFiles/key.dir/build
+.PHONY : key/fast
+
+basics/acs.o: basics/acs.c.o
+
+.PHONY : basics/acs.o
+
+# target to build an object file
+basics/acs.c.o:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/acs.dir/build.make ncurses/CMakeFiles/acs.dir/basics/acs.c.o
+.PHONY : basics/acs.c.o
+
+basics/acs.i: basics/acs.c.i
+
+.PHONY : basics/acs.i
+
+# target to preprocess a source file
+basics/acs.c.i:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/acs.dir/build.make ncurses/CMakeFiles/acs.dir/basics/acs.c.i
+.PHONY : basics/acs.c.i
+
+basics/acs.s: basics/acs.c.s
+
+.PHONY : basics/acs.s
+
+# target to generate assembly for a file
+basics/acs.c.s:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/acs.dir/build.make ncurses/CMakeFiles/acs.dir/basics/acs.c.s
+.PHONY : basics/acs.c.s
 
 basics/chgat.o: basics/chgat.c.o
 
@@ -275,6 +422,33 @@ basics/chgat.s: basics/chgat.c.s
 basics/chgat.c.s:
 	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/chgat.dir/build.make ncurses/CMakeFiles/chgat.dir/basics/chgat.c.s
 .PHONY : basics/chgat.c.s
+
+basics/color.o: basics/color.c.o
+
+.PHONY : basics/color.o
+
+# target to build an object file
+basics/color.c.o:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/color.dir/build.make ncurses/CMakeFiles/color.dir/basics/color.c.o
+.PHONY : basics/color.c.o
+
+basics/color.i: basics/color.c.i
+
+.PHONY : basics/color.i
+
+# target to preprocess a source file
+basics/color.c.i:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/color.dir/build.make ncurses/CMakeFiles/color.dir/basics/color.c.i
+.PHONY : basics/color.c.i
+
+basics/color.s: basics/color.c.s
+
+.PHONY : basics/color.s
+
+# target to generate assembly for a file
+basics/color.c.s:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/color.dir/build.make ncurses/CMakeFiles/color.dir/basics/color.c.s
+.PHONY : basics/color.c.s
 
 basics/comments-in-bold.o: basics/comments-in-bold.c.o
 
@@ -357,6 +531,33 @@ basics/init.c.s:
 	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/init.dir/build.make ncurses/CMakeFiles/init.dir/basics/init.c.s
 .PHONY : basics/init.c.s
 
+basics/key.o: basics/key.c.o
+
+.PHONY : basics/key.o
+
+# target to build an object file
+basics/key.c.o:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/key.dir/build.make ncurses/CMakeFiles/key.dir/basics/key.c.o
+.PHONY : basics/key.c.o
+
+basics/key.i: basics/key.c.i
+
+.PHONY : basics/key.i
+
+# target to preprocess a source file
+basics/key.c.i:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/key.dir/build.make ncurses/CMakeFiles/key.dir/basics/key.c.i
+.PHONY : basics/key.c.i
+
+basics/key.s: basics/key.c.s
+
+.PHONY : basics/key.s
+
+# target to generate assembly for a file
+basics/key.c.s:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/key.dir/build.make ncurses/CMakeFiles/key.dir/basics/key.c.s
+.PHONY : basics/key.c.s
+
 basics/more-border.o: basics/more-border.c.o
 
 .PHONY : basics/more-border.o
@@ -383,6 +584,33 @@ basics/more-border.s: basics/more-border.c.s
 basics/more-border.c.s:
 	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/more-border.dir/build.make ncurses/CMakeFiles/more-border.dir/basics/more-border.c.s
 .PHONY : basics/more-border.c.s
+
+basics/mouse.o: basics/mouse.c.o
+
+.PHONY : basics/mouse.o
+
+# target to build an object file
+basics/mouse.c.o:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/mouse.dir/build.make ncurses/CMakeFiles/mouse.dir/basics/mouse.c.o
+.PHONY : basics/mouse.c.o
+
+basics/mouse.i: basics/mouse.c.i
+
+.PHONY : basics/mouse.i
+
+# target to preprocess a source file
+basics/mouse.c.i:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/mouse.dir/build.make ncurses/CMakeFiles/mouse.dir/basics/mouse.c.i
+.PHONY : basics/mouse.c.i
+
+basics/mouse.s: basics/mouse.c.s
+
+.PHONY : basics/mouse.s
+
+# target to generate assembly for a file
+basics/mouse.c.s:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/mouse.dir/build.make ncurses/CMakeFiles/mouse.dir/basics/mouse.c.s
+.PHONY : basics/mouse.c.s
 
 basics/printw.o: basics/printw.c.o
 
@@ -465,6 +693,114 @@ basics/window-border.c.s:
 	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/window-border.dir/build.make ncurses/CMakeFiles/window-border.dir/basics/window-border.c.s
 .PHONY : basics/window-border.c.s
 
+panels/panel-basics.o: panels/panel-basics.c.o
+
+.PHONY : panels/panel-basics.o
+
+# target to build an object file
+panels/panel-basics.c.o:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/panel-basics.dir/build.make ncurses/CMakeFiles/panel-basics.dir/panels/panel-basics.c.o
+.PHONY : panels/panel-basics.c.o
+
+panels/panel-basics.i: panels/panel-basics.c.i
+
+.PHONY : panels/panel-basics.i
+
+# target to preprocess a source file
+panels/panel-basics.c.i:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/panel-basics.dir/build.make ncurses/CMakeFiles/panel-basics.dir/panels/panel-basics.c.i
+.PHONY : panels/panel-basics.c.i
+
+panels/panel-basics.s: panels/panel-basics.c.s
+
+.PHONY : panels/panel-basics.s
+
+# target to generate assembly for a file
+panels/panel-basics.c.s:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/panel-basics.dir/build.make ncurses/CMakeFiles/panel-basics.dir/panels/panel-basics.c.s
+.PHONY : panels/panel-basics.c.s
+
+panels/panel-browsing.o: panels/panel-browsing.c.o
+
+.PHONY : panels/panel-browsing.o
+
+# target to build an object file
+panels/panel-browsing.c.o:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/panel-browsing.dir/build.make ncurses/CMakeFiles/panel-browsing.dir/panels/panel-browsing.c.o
+.PHONY : panels/panel-browsing.c.o
+
+panels/panel-browsing.i: panels/panel-browsing.c.i
+
+.PHONY : panels/panel-browsing.i
+
+# target to preprocess a source file
+panels/panel-browsing.c.i:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/panel-browsing.dir/build.make ncurses/CMakeFiles/panel-browsing.dir/panels/panel-browsing.c.i
+.PHONY : panels/panel-browsing.c.i
+
+panels/panel-browsing.s: panels/panel-browsing.c.s
+
+.PHONY : panels/panel-browsing.s
+
+# target to generate assembly for a file
+panels/panel-browsing.c.s:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/panel-browsing.dir/build.make ncurses/CMakeFiles/panel-browsing.dir/panels/panel-browsing.c.s
+.PHONY : panels/panel-browsing.c.s
+
+panels/panel-hiding-showing.o: panels/panel-hiding-showing.c.o
+
+.PHONY : panels/panel-hiding-showing.o
+
+# target to build an object file
+panels/panel-hiding-showing.c.o:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/panel-hiding-showing.dir/build.make ncurses/CMakeFiles/panel-hiding-showing.dir/panels/panel-hiding-showing.c.o
+.PHONY : panels/panel-hiding-showing.c.o
+
+panels/panel-hiding-showing.i: panels/panel-hiding-showing.c.i
+
+.PHONY : panels/panel-hiding-showing.i
+
+# target to preprocess a source file
+panels/panel-hiding-showing.c.i:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/panel-hiding-showing.dir/build.make ncurses/CMakeFiles/panel-hiding-showing.dir/panels/panel-hiding-showing.c.i
+.PHONY : panels/panel-hiding-showing.c.i
+
+panels/panel-hiding-showing.s: panels/panel-hiding-showing.c.s
+
+.PHONY : panels/panel-hiding-showing.s
+
+# target to generate assembly for a file
+panels/panel-hiding-showing.c.s:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/panel-hiding-showing.dir/build.make ncurses/CMakeFiles/panel-hiding-showing.dir/panels/panel-hiding-showing.c.s
+.PHONY : panels/panel-hiding-showing.c.s
+
+panels/panel-moving-resizing.o: panels/panel-moving-resizing.c.o
+
+.PHONY : panels/panel-moving-resizing.o
+
+# target to build an object file
+panels/panel-moving-resizing.c.o:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/panel-moving-resizing.dir/build.make ncurses/CMakeFiles/panel-moving-resizing.dir/panels/panel-moving-resizing.c.o
+.PHONY : panels/panel-moving-resizing.c.o
+
+panels/panel-moving-resizing.i: panels/panel-moving-resizing.c.i
+
+.PHONY : panels/panel-moving-resizing.i
+
+# target to preprocess a source file
+panels/panel-moving-resizing.c.i:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/panel-moving-resizing.dir/build.make ncurses/CMakeFiles/panel-moving-resizing.dir/panels/panel-moving-resizing.c.i
+.PHONY : panels/panel-moving-resizing.c.i
+
+panels/panel-moving-resizing.s: panels/panel-moving-resizing.c.s
+
+.PHONY : panels/panel-moving-resizing.s
+
+# target to generate assembly for a file
+panels/panel-moving-resizing.c.s:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/panel-moving-resizing.dir/build.make ncurses/CMakeFiles/panel-moving-resizing.dir/panels/panel-moving-resizing.c.s
+.PHONY : panels/panel-moving-resizing.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -473,17 +809,31 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... acs"
 	@echo "... chgat"
+	@echo "... color"
 	@echo "... comments-in-bold"
 	@echo "... hello-world-ncurses"
 	@echo "... init"
+	@echo "... key"
 	@echo "... more-border"
+	@echo "... mouse"
+	@echo "... panel-basics"
+	@echo "... panel-browsing"
+	@echo "... panel-hiding-showing"
+	@echo "... panel-moving-resizing"
 	@echo "... printw"
 	@echo "... scanw"
 	@echo "... window-border"
+	@echo "... basics/acs.o"
+	@echo "... basics/acs.i"
+	@echo "... basics/acs.s"
 	@echo "... basics/chgat.o"
 	@echo "... basics/chgat.i"
 	@echo "... basics/chgat.s"
+	@echo "... basics/color.o"
+	@echo "... basics/color.i"
+	@echo "... basics/color.s"
 	@echo "... basics/comments-in-bold.o"
 	@echo "... basics/comments-in-bold.i"
 	@echo "... basics/comments-in-bold.s"
@@ -493,9 +843,15 @@ help:
 	@echo "... basics/init.o"
 	@echo "... basics/init.i"
 	@echo "... basics/init.s"
+	@echo "... basics/key.o"
+	@echo "... basics/key.i"
+	@echo "... basics/key.s"
 	@echo "... basics/more-border.o"
 	@echo "... basics/more-border.i"
 	@echo "... basics/more-border.s"
+	@echo "... basics/mouse.o"
+	@echo "... basics/mouse.i"
+	@echo "... basics/mouse.s"
 	@echo "... basics/printw.o"
 	@echo "... basics/printw.i"
 	@echo "... basics/printw.s"
@@ -505,6 +861,18 @@ help:
 	@echo "... basics/window-border.o"
 	@echo "... basics/window-border.i"
 	@echo "... basics/window-border.s"
+	@echo "... panels/panel-basics.o"
+	@echo "... panels/panel-basics.i"
+	@echo "... panels/panel-basics.s"
+	@echo "... panels/panel-browsing.o"
+	@echo "... panels/panel-browsing.i"
+	@echo "... panels/panel-browsing.s"
+	@echo "... panels/panel-hiding-showing.o"
+	@echo "... panels/panel-hiding-showing.i"
+	@echo "... panels/panel-hiding-showing.s"
+	@echo "... panels/panel-moving-resizing.o"
+	@echo "... panels/panel-moving-resizing.i"
+	@echo "... panels/panel-moving-resizing.s"
 .PHONY : help
 
 
