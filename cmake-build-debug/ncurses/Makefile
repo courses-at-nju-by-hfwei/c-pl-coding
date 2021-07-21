@@ -130,229 +130,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-ncurses/CMakeFiles/menu-basics.dir/rule:
-	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/menu-basics.dir/rule
-.PHONY : ncurses/CMakeFiles/menu-basics.dir/rule
+ncurses/CMakeFiles/key.dir/rule:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/key.dir/rule
+.PHONY : ncurses/CMakeFiles/key.dir/rule
 
 # Convenience name for target.
-menu-basics: ncurses/CMakeFiles/menu-basics.dir/rule
+key: ncurses/CMakeFiles/key.dir/rule
 
-.PHONY : menu-basics
+.PHONY : key
 
 # fast build rule for target.
-menu-basics/fast:
-	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-basics.dir/build.make ncurses/CMakeFiles/menu-basics.dir/build
-.PHONY : menu-basics/fast
-
-# Convenience name for target.
-ncurses/CMakeFiles/panel-hiding-showing.dir/rule:
-	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/panel-hiding-showing.dir/rule
-.PHONY : ncurses/CMakeFiles/panel-hiding-showing.dir/rule
-
-# Convenience name for target.
-panel-hiding-showing: ncurses/CMakeFiles/panel-hiding-showing.dir/rule
-
-.PHONY : panel-hiding-showing
-
-# fast build rule for target.
-panel-hiding-showing/fast:
-	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/panel-hiding-showing.dir/build.make ncurses/CMakeFiles/panel-hiding-showing.dir/build
-.PHONY : panel-hiding-showing/fast
-
-# Convenience name for target.
-ncurses/CMakeFiles/panel-browsing.dir/rule:
-	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/panel-browsing.dir/rule
-.PHONY : ncurses/CMakeFiles/panel-browsing.dir/rule
-
-# Convenience name for target.
-panel-browsing: ncurses/CMakeFiles/panel-browsing.dir/rule
-
-.PHONY : panel-browsing
-
-# fast build rule for target.
-panel-browsing/fast:
-	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/panel-browsing.dir/build.make ncurses/CMakeFiles/panel-browsing.dir/build
-.PHONY : panel-browsing/fast
-
-# Convenience name for target.
-ncurses/CMakeFiles/panel-basics.dir/rule:
-	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/panel-basics.dir/rule
-.PHONY : ncurses/CMakeFiles/panel-basics.dir/rule
-
-# Convenience name for target.
-panel-basics: ncurses/CMakeFiles/panel-basics.dir/rule
-
-.PHONY : panel-basics
-
-# fast build rule for target.
-panel-basics/fast:
-	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/panel-basics.dir/build.make ncurses/CMakeFiles/panel-basics.dir/build
-.PHONY : panel-basics/fast
-
-# Convenience name for target.
-ncurses/CMakeFiles/acs.dir/rule:
-	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/acs.dir/rule
-.PHONY : ncurses/CMakeFiles/acs.dir/rule
-
-# Convenience name for target.
-acs: ncurses/CMakeFiles/acs.dir/rule
-
-.PHONY : acs
-
-# fast build rule for target.
-acs/fast:
-	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/acs.dir/build.make ncurses/CMakeFiles/acs.dir/build
-.PHONY : acs/fast
-
-# Convenience name for target.
-ncurses/CMakeFiles/mouse.dir/rule:
-	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/mouse.dir/rule
-.PHONY : ncurses/CMakeFiles/mouse.dir/rule
-
-# Convenience name for target.
-mouse: ncurses/CMakeFiles/mouse.dir/rule
-
-.PHONY : mouse
-
-# fast build rule for target.
-mouse/fast:
-	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/mouse.dir/build.make ncurses/CMakeFiles/mouse.dir/build
-.PHONY : mouse/fast
-
-# Convenience name for target.
-ncurses/CMakeFiles/menu-window.dir/rule:
-	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/menu-window.dir/rule
-.PHONY : ncurses/CMakeFiles/menu-window.dir/rule
-
-# Convenience name for target.
-menu-window: ncurses/CMakeFiles/menu-window.dir/rule
-
-.PHONY : menu-window
-
-# fast build rule for target.
-menu-window/fast:
-	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-window.dir/build.make ncurses/CMakeFiles/menu-window.dir/build
-.PHONY : menu-window/fast
-
-# Convenience name for target.
-ncurses/CMakeFiles/panel-moving-resizing.dir/rule:
-	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/panel-moving-resizing.dir/rule
-.PHONY : ncurses/CMakeFiles/panel-moving-resizing.dir/rule
-
-# Convenience name for target.
-panel-moving-resizing: ncurses/CMakeFiles/panel-moving-resizing.dir/rule
-
-.PHONY : panel-moving-resizing
-
-# fast build rule for target.
-panel-moving-resizing/fast:
-	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/panel-moving-resizing.dir/build.make ncurses/CMakeFiles/panel-moving-resizing.dir/build
-.PHONY : panel-moving-resizing/fast
-
-# Convenience name for target.
-ncurses/CMakeFiles/scanw.dir/rule:
-	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/scanw.dir/rule
-.PHONY : ncurses/CMakeFiles/scanw.dir/rule
-
-# Convenience name for target.
-scanw: ncurses/CMakeFiles/scanw.dir/rule
-
-.PHONY : scanw
-
-# fast build rule for target.
-scanw/fast:
-	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/scanw.dir/build.make ncurses/CMakeFiles/scanw.dir/build
-.PHONY : scanw/fast
-
-# Convenience name for target.
-ncurses/CMakeFiles/window-border.dir/rule:
-	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/window-border.dir/rule
-.PHONY : ncurses/CMakeFiles/window-border.dir/rule
-
-# Convenience name for target.
-window-border: ncurses/CMakeFiles/window-border.dir/rule
-
-.PHONY : window-border
-
-# fast build rule for target.
-window-border/fast:
-	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/window-border.dir/build.make ncurses/CMakeFiles/window-border.dir/build
-.PHONY : window-border/fast
-
-# Convenience name for target.
-ncurses/CMakeFiles/init.dir/rule:
-	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/init.dir/rule
-.PHONY : ncurses/CMakeFiles/init.dir/rule
-
-# Convenience name for target.
-init: ncurses/CMakeFiles/init.dir/rule
-
-.PHONY : init
-
-# fast build rule for target.
-init/fast:
-	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/init.dir/build.make ncurses/CMakeFiles/init.dir/build
-.PHONY : init/fast
-
-# Convenience name for target.
-ncurses/CMakeFiles/hello-world-ncurses.dir/rule:
-	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/hello-world-ncurses.dir/rule
-.PHONY : ncurses/CMakeFiles/hello-world-ncurses.dir/rule
-
-# Convenience name for target.
-hello-world-ncurses: ncurses/CMakeFiles/hello-world-ncurses.dir/rule
-
-.PHONY : hello-world-ncurses
-
-# fast build rule for target.
-hello-world-ncurses/fast:
-	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/hello-world-ncurses.dir/build.make ncurses/CMakeFiles/hello-world-ncurses.dir/build
-.PHONY : hello-world-ncurses/fast
-
-# Convenience name for target.
-ncurses/CMakeFiles/printw.dir/rule:
-	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/printw.dir/rule
-.PHONY : ncurses/CMakeFiles/printw.dir/rule
-
-# Convenience name for target.
-printw: ncurses/CMakeFiles/printw.dir/rule
-
-.PHONY : printw
-
-# fast build rule for target.
-printw/fast:
-	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/printw.dir/build.make ncurses/CMakeFiles/printw.dir/build
-.PHONY : printw/fast
-
-# Convenience name for target.
-ncurses/CMakeFiles/more-border.dir/rule:
-	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/more-border.dir/rule
-.PHONY : ncurses/CMakeFiles/more-border.dir/rule
-
-# Convenience name for target.
-more-border: ncurses/CMakeFiles/more-border.dir/rule
-
-.PHONY : more-border
-
-# fast build rule for target.
-more-border/fast:
-	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/more-border.dir/build.make ncurses/CMakeFiles/more-border.dir/build
-.PHONY : more-border/fast
-
-# Convenience name for target.
-ncurses/CMakeFiles/chgat.dir/rule:
-	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/chgat.dir/rule
-.PHONY : ncurses/CMakeFiles/chgat.dir/rule
-
-# Convenience name for target.
-chgat: ncurses/CMakeFiles/chgat.dir/rule
-
-.PHONY : chgat
-
-# fast build rule for target.
-chgat/fast:
-	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/chgat.dir/build.make ncurses/CMakeFiles/chgat.dir/build
-.PHONY : chgat/fast
+key/fast:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/key.dir/build.make ncurses/CMakeFiles/key.dir/build
+.PHONY : key/fast
 
 # Convenience name for target.
 ncurses/CMakeFiles/color.dir/rule:
@@ -370,6 +160,261 @@ color/fast:
 .PHONY : color/fast
 
 # Convenience name for target.
+ncurses/CMakeFiles/chgat.dir/rule:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/chgat.dir/rule
+.PHONY : ncurses/CMakeFiles/chgat.dir/rule
+
+# Convenience name for target.
+chgat: ncurses/CMakeFiles/chgat.dir/rule
+
+.PHONY : chgat
+
+# fast build rule for target.
+chgat/fast:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/chgat.dir/build.make ncurses/CMakeFiles/chgat.dir/build
+.PHONY : chgat/fast
+
+# Convenience name for target.
+ncurses/CMakeFiles/menu-scrolling.dir/rule:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/menu-scrolling.dir/rule
+.PHONY : ncurses/CMakeFiles/menu-scrolling.dir/rule
+
+# Convenience name for target.
+menu-scrolling: ncurses/CMakeFiles/menu-scrolling.dir/rule
+
+.PHONY : menu-scrolling
+
+# fast build rule for target.
+menu-scrolling/fast:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-scrolling.dir/build.make ncurses/CMakeFiles/menu-scrolling.dir/build
+.PHONY : menu-scrolling/fast
+
+# Convenience name for target.
+ncurses/CMakeFiles/more-border.dir/rule:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/more-border.dir/rule
+.PHONY : ncurses/CMakeFiles/more-border.dir/rule
+
+# Convenience name for target.
+more-border: ncurses/CMakeFiles/more-border.dir/rule
+
+.PHONY : more-border
+
+# fast build rule for target.
+more-border/fast:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/more-border.dir/build.make ncurses/CMakeFiles/more-border.dir/build
+.PHONY : more-border/fast
+
+# Convenience name for target.
+ncurses/CMakeFiles/printw.dir/rule:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/printw.dir/rule
+.PHONY : ncurses/CMakeFiles/printw.dir/rule
+
+# Convenience name for target.
+printw: ncurses/CMakeFiles/printw.dir/rule
+
+.PHONY : printw
+
+# fast build rule for target.
+printw/fast:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/printw.dir/build.make ncurses/CMakeFiles/printw.dir/build
+.PHONY : printw/fast
+
+# Convenience name for target.
+ncurses/CMakeFiles/menu-multicol.dir/rule:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/menu-multicol.dir/rule
+.PHONY : ncurses/CMakeFiles/menu-multicol.dir/rule
+
+# Convenience name for target.
+menu-multicol: ncurses/CMakeFiles/menu-multicol.dir/rule
+
+.PHONY : menu-multicol
+
+# fast build rule for target.
+menu-multicol/fast:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-multicol.dir/build.make ncurses/CMakeFiles/menu-multicol.dir/build
+.PHONY : menu-multicol/fast
+
+# Convenience name for target.
+ncurses/CMakeFiles/init.dir/rule:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/init.dir/rule
+.PHONY : ncurses/CMakeFiles/init.dir/rule
+
+# Convenience name for target.
+init: ncurses/CMakeFiles/init.dir/rule
+
+.PHONY : init
+
+# fast build rule for target.
+init/fast:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/init.dir/build.make ncurses/CMakeFiles/init.dir/build
+.PHONY : init/fast
+
+# Convenience name for target.
+ncurses/CMakeFiles/window-border.dir/rule:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/window-border.dir/rule
+.PHONY : ncurses/CMakeFiles/window-border.dir/rule
+
+# Convenience name for target.
+window-border: ncurses/CMakeFiles/window-border.dir/rule
+
+.PHONY : window-border
+
+# fast build rule for target.
+window-border/fast:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/window-border.dir/build.make ncurses/CMakeFiles/window-border.dir/build
+.PHONY : window-border/fast
+
+# Convenience name for target.
+ncurses/CMakeFiles/scanw.dir/rule:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/scanw.dir/rule
+.PHONY : ncurses/CMakeFiles/scanw.dir/rule
+
+# Convenience name for target.
+scanw: ncurses/CMakeFiles/scanw.dir/rule
+
+.PHONY : scanw
+
+# fast build rule for target.
+scanw/fast:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/scanw.dir/build.make ncurses/CMakeFiles/scanw.dir/build
+.PHONY : scanw/fast
+
+# Convenience name for target.
+ncurses/CMakeFiles/panel-moving-resizing.dir/rule:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/panel-moving-resizing.dir/rule
+.PHONY : ncurses/CMakeFiles/panel-moving-resizing.dir/rule
+
+# Convenience name for target.
+panel-moving-resizing: ncurses/CMakeFiles/panel-moving-resizing.dir/rule
+
+.PHONY : panel-moving-resizing
+
+# fast build rule for target.
+panel-moving-resizing/fast:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/panel-moving-resizing.dir/build.make ncurses/CMakeFiles/panel-moving-resizing.dir/build
+.PHONY : panel-moving-resizing/fast
+
+# Convenience name for target.
+ncurses/CMakeFiles/menu-window.dir/rule:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/menu-window.dir/rule
+.PHONY : ncurses/CMakeFiles/menu-window.dir/rule
+
+# Convenience name for target.
+menu-window: ncurses/CMakeFiles/menu-window.dir/rule
+
+.PHONY : menu-window
+
+# fast build rule for target.
+menu-window/fast:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-window.dir/build.make ncurses/CMakeFiles/menu-window.dir/build
+.PHONY : menu-window/fast
+
+# Convenience name for target.
+ncurses/CMakeFiles/mouse.dir/rule:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/mouse.dir/rule
+.PHONY : ncurses/CMakeFiles/mouse.dir/rule
+
+# Convenience name for target.
+mouse: ncurses/CMakeFiles/mouse.dir/rule
+
+.PHONY : mouse
+
+# fast build rule for target.
+mouse/fast:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/mouse.dir/build.make ncurses/CMakeFiles/mouse.dir/build
+.PHONY : mouse/fast
+
+# Convenience name for target.
+ncurses/CMakeFiles/acs.dir/rule:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/acs.dir/rule
+.PHONY : ncurses/CMakeFiles/acs.dir/rule
+
+# Convenience name for target.
+acs: ncurses/CMakeFiles/acs.dir/rule
+
+.PHONY : acs
+
+# fast build rule for target.
+acs/fast:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/acs.dir/build.make ncurses/CMakeFiles/acs.dir/build
+.PHONY : acs/fast
+
+# Convenience name for target.
+ncurses/CMakeFiles/panel-basics.dir/rule:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/panel-basics.dir/rule
+.PHONY : ncurses/CMakeFiles/panel-basics.dir/rule
+
+# Convenience name for target.
+panel-basics: ncurses/CMakeFiles/panel-basics.dir/rule
+
+.PHONY : panel-basics
+
+# fast build rule for target.
+panel-basics/fast:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/panel-basics.dir/build.make ncurses/CMakeFiles/panel-basics.dir/build
+.PHONY : panel-basics/fast
+
+# Convenience name for target.
+ncurses/CMakeFiles/menu-user-pointer.dir/rule:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/menu-user-pointer.dir/rule
+.PHONY : ncurses/CMakeFiles/menu-user-pointer.dir/rule
+
+# Convenience name for target.
+menu-user-pointer: ncurses/CMakeFiles/menu-user-pointer.dir/rule
+
+.PHONY : menu-user-pointer
+
+# fast build rule for target.
+menu-user-pointer/fast:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-user-pointer.dir/build.make ncurses/CMakeFiles/menu-user-pointer.dir/build
+.PHONY : menu-user-pointer/fast
+
+# Convenience name for target.
+ncurses/CMakeFiles/hello-world-ncurses.dir/rule:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/hello-world-ncurses.dir/rule
+.PHONY : ncurses/CMakeFiles/hello-world-ncurses.dir/rule
+
+# Convenience name for target.
+hello-world-ncurses: ncurses/CMakeFiles/hello-world-ncurses.dir/rule
+
+.PHONY : hello-world-ncurses
+
+# fast build rule for target.
+hello-world-ncurses/fast:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/hello-world-ncurses.dir/build.make ncurses/CMakeFiles/hello-world-ncurses.dir/build
+.PHONY : hello-world-ncurses/fast
+
+# Convenience name for target.
+ncurses/CMakeFiles/panel-browsing.dir/rule:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/panel-browsing.dir/rule
+.PHONY : ncurses/CMakeFiles/panel-browsing.dir/rule
+
+# Convenience name for target.
+panel-browsing: ncurses/CMakeFiles/panel-browsing.dir/rule
+
+.PHONY : panel-browsing
+
+# fast build rule for target.
+panel-browsing/fast:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/panel-browsing.dir/build.make ncurses/CMakeFiles/panel-browsing.dir/build
+.PHONY : panel-browsing/fast
+
+# Convenience name for target.
+ncurses/CMakeFiles/panel-hiding-showing.dir/rule:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/panel-hiding-showing.dir/rule
+.PHONY : ncurses/CMakeFiles/panel-hiding-showing.dir/rule
+
+# Convenience name for target.
+panel-hiding-showing: ncurses/CMakeFiles/panel-hiding-showing.dir/rule
+
+.PHONY : panel-hiding-showing
+
+# fast build rule for target.
+panel-hiding-showing/fast:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/panel-hiding-showing.dir/build.make ncurses/CMakeFiles/panel-hiding-showing.dir/build
+.PHONY : panel-hiding-showing/fast
+
+# Convenience name for target.
 ncurses/CMakeFiles/comments-in-bold.dir/rule:
 	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/comments-in-bold.dir/rule
 .PHONY : ncurses/CMakeFiles/comments-in-bold.dir/rule
@@ -385,19 +430,49 @@ comments-in-bold/fast:
 .PHONY : comments-in-bold/fast
 
 # Convenience name for target.
-ncurses/CMakeFiles/key.dir/rule:
-	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/key.dir/rule
-.PHONY : ncurses/CMakeFiles/key.dir/rule
+ncurses/CMakeFiles/menu-basics.dir/rule:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/menu-basics.dir/rule
+.PHONY : ncurses/CMakeFiles/menu-basics.dir/rule
 
 # Convenience name for target.
-key: ncurses/CMakeFiles/key.dir/rule
+menu-basics: ncurses/CMakeFiles/menu-basics.dir/rule
 
-.PHONY : key
+.PHONY : menu-basics
 
 # fast build rule for target.
-key/fast:
-	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/key.dir/build.make ncurses/CMakeFiles/key.dir/build
-.PHONY : key/fast
+menu-basics/fast:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-basics.dir/build.make ncurses/CMakeFiles/menu-basics.dir/build
+.PHONY : menu-basics/fast
+
+# Convenience name for target.
+ncurses/CMakeFiles/menu-multival.dir/rule:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/menu-multival.dir/rule
+.PHONY : ncurses/CMakeFiles/menu-multival.dir/rule
+
+# Convenience name for target.
+menu-multival: ncurses/CMakeFiles/menu-multival.dir/rule
+
+.PHONY : menu-multival
+
+# fast build rule for target.
+menu-multival/fast:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-multival.dir/build.make ncurses/CMakeFiles/menu-multival.dir/build
+.PHONY : menu-multival/fast
+
+# Convenience name for target.
+ncurses/CMakeFiles/menu-options.dir/rule:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/menu-options.dir/rule
+.PHONY : ncurses/CMakeFiles/menu-options.dir/rule
+
+# Convenience name for target.
+menu-options: ncurses/CMakeFiles/menu-options.dir/rule
+
+.PHONY : menu-options
+
+# fast build rule for target.
+menu-options/fast:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-options.dir/build.make ncurses/CMakeFiles/menu-options.dir/build
+.PHONY : menu-options/fast
 
 basics/acs.o: basics/acs.c.o
 
@@ -750,6 +825,141 @@ menus/menu-basics.c.s:
 	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-basics.dir/build.make ncurses/CMakeFiles/menu-basics.dir/menus/menu-basics.c.s
 .PHONY : menus/menu-basics.c.s
 
+menus/menu-multicol.o: menus/menu-multicol.c.o
+
+.PHONY : menus/menu-multicol.o
+
+# target to build an object file
+menus/menu-multicol.c.o:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-multicol.dir/build.make ncurses/CMakeFiles/menu-multicol.dir/menus/menu-multicol.c.o
+.PHONY : menus/menu-multicol.c.o
+
+menus/menu-multicol.i: menus/menu-multicol.c.i
+
+.PHONY : menus/menu-multicol.i
+
+# target to preprocess a source file
+menus/menu-multicol.c.i:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-multicol.dir/build.make ncurses/CMakeFiles/menu-multicol.dir/menus/menu-multicol.c.i
+.PHONY : menus/menu-multicol.c.i
+
+menus/menu-multicol.s: menus/menu-multicol.c.s
+
+.PHONY : menus/menu-multicol.s
+
+# target to generate assembly for a file
+menus/menu-multicol.c.s:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-multicol.dir/build.make ncurses/CMakeFiles/menu-multicol.dir/menus/menu-multicol.c.s
+.PHONY : menus/menu-multicol.c.s
+
+menus/menu-multival.o: menus/menu-multival.c.o
+
+.PHONY : menus/menu-multival.o
+
+# target to build an object file
+menus/menu-multival.c.o:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-multival.dir/build.make ncurses/CMakeFiles/menu-multival.dir/menus/menu-multival.c.o
+.PHONY : menus/menu-multival.c.o
+
+menus/menu-multival.i: menus/menu-multival.c.i
+
+.PHONY : menus/menu-multival.i
+
+# target to preprocess a source file
+menus/menu-multival.c.i:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-multival.dir/build.make ncurses/CMakeFiles/menu-multival.dir/menus/menu-multival.c.i
+.PHONY : menus/menu-multival.c.i
+
+menus/menu-multival.s: menus/menu-multival.c.s
+
+.PHONY : menus/menu-multival.s
+
+# target to generate assembly for a file
+menus/menu-multival.c.s:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-multival.dir/build.make ncurses/CMakeFiles/menu-multival.dir/menus/menu-multival.c.s
+.PHONY : menus/menu-multival.c.s
+
+menus/menu-options.o: menus/menu-options.c.o
+
+.PHONY : menus/menu-options.o
+
+# target to build an object file
+menus/menu-options.c.o:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-options.dir/build.make ncurses/CMakeFiles/menu-options.dir/menus/menu-options.c.o
+.PHONY : menus/menu-options.c.o
+
+menus/menu-options.i: menus/menu-options.c.i
+
+.PHONY : menus/menu-options.i
+
+# target to preprocess a source file
+menus/menu-options.c.i:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-options.dir/build.make ncurses/CMakeFiles/menu-options.dir/menus/menu-options.c.i
+.PHONY : menus/menu-options.c.i
+
+menus/menu-options.s: menus/menu-options.c.s
+
+.PHONY : menus/menu-options.s
+
+# target to generate assembly for a file
+menus/menu-options.c.s:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-options.dir/build.make ncurses/CMakeFiles/menu-options.dir/menus/menu-options.c.s
+.PHONY : menus/menu-options.c.s
+
+menus/menu-scrolling.o: menus/menu-scrolling.c.o
+
+.PHONY : menus/menu-scrolling.o
+
+# target to build an object file
+menus/menu-scrolling.c.o:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-scrolling.dir/build.make ncurses/CMakeFiles/menu-scrolling.dir/menus/menu-scrolling.c.o
+.PHONY : menus/menu-scrolling.c.o
+
+menus/menu-scrolling.i: menus/menu-scrolling.c.i
+
+.PHONY : menus/menu-scrolling.i
+
+# target to preprocess a source file
+menus/menu-scrolling.c.i:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-scrolling.dir/build.make ncurses/CMakeFiles/menu-scrolling.dir/menus/menu-scrolling.c.i
+.PHONY : menus/menu-scrolling.c.i
+
+menus/menu-scrolling.s: menus/menu-scrolling.c.s
+
+.PHONY : menus/menu-scrolling.s
+
+# target to generate assembly for a file
+menus/menu-scrolling.c.s:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-scrolling.dir/build.make ncurses/CMakeFiles/menu-scrolling.dir/menus/menu-scrolling.c.s
+.PHONY : menus/menu-scrolling.c.s
+
+menus/menu-user-pointer.o: menus/menu-user-pointer.c.o
+
+.PHONY : menus/menu-user-pointer.o
+
+# target to build an object file
+menus/menu-user-pointer.c.o:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-user-pointer.dir/build.make ncurses/CMakeFiles/menu-user-pointer.dir/menus/menu-user-pointer.c.o
+.PHONY : menus/menu-user-pointer.c.o
+
+menus/menu-user-pointer.i: menus/menu-user-pointer.c.i
+
+.PHONY : menus/menu-user-pointer.i
+
+# target to preprocess a source file
+menus/menu-user-pointer.c.i:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-user-pointer.dir/build.make ncurses/CMakeFiles/menu-user-pointer.dir/menus/menu-user-pointer.c.i
+.PHONY : menus/menu-user-pointer.c.i
+
+menus/menu-user-pointer.s: menus/menu-user-pointer.c.s
+
+.PHONY : menus/menu-user-pointer.s
+
+# target to generate assembly for a file
+menus/menu-user-pointer.c.s:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-user-pointer.dir/build.make ncurses/CMakeFiles/menu-user-pointer.dir/menus/menu-user-pointer.c.s
+.PHONY : menus/menu-user-pointer.c.s
+
 menus/menu-window.o: menus/menu-window.c.o
 
 .PHONY : menus/menu-window.o
@@ -901,6 +1111,11 @@ help:
 	@echo "... init"
 	@echo "... key"
 	@echo "... menu-basics"
+	@echo "... menu-multicol"
+	@echo "... menu-multival"
+	@echo "... menu-options"
+	@echo "... menu-scrolling"
+	@echo "... menu-user-pointer"
 	@echo "... menu-window"
 	@echo "... more-border"
 	@echo "... mouse"
@@ -950,6 +1165,21 @@ help:
 	@echo "... menus/menu-basics.o"
 	@echo "... menus/menu-basics.i"
 	@echo "... menus/menu-basics.s"
+	@echo "... menus/menu-multicol.o"
+	@echo "... menus/menu-multicol.i"
+	@echo "... menus/menu-multicol.s"
+	@echo "... menus/menu-multival.o"
+	@echo "... menus/menu-multival.i"
+	@echo "... menus/menu-multival.s"
+	@echo "... menus/menu-options.o"
+	@echo "... menus/menu-options.i"
+	@echo "... menus/menu-options.s"
+	@echo "... menus/menu-scrolling.o"
+	@echo "... menus/menu-scrolling.i"
+	@echo "... menus/menu-scrolling.s"
+	@echo "... menus/menu-user-pointer.o"
+	@echo "... menus/menu-user-pointer.i"
+	@echo "... menus/menu-user-pointer.s"
 	@echo "... menus/menu-window.o"
 	@echo "... menus/menu-window.i"
 	@echo "... menus/menu-window.s"

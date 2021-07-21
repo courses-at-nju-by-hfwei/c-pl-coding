@@ -20,3 +20,8 @@ add_executable(panel-hiding-showing panels/panel-hiding-showing.c)
 
 add_executable(menu-basics menus/menu-basics.c)
 add_executable(menu-window menus/menu-window.c)
+add_executable(menu-scrolling menus/menu-scrolling.c)
+add_executable(menu-multicol menus/menu-multicol.c)
+add_executable(menu-multival menus/menu-multival.c)
+add_executable(menu-options menus/menu-options.c)
+add_executable(menu-user-pointer menus/menu-user-pointer.c)

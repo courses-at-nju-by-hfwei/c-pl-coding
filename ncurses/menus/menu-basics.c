@@ -1,5 +1,6 @@
 //
 // Created by hengxin on 7/17/21.
+// `gcc -o menu-basics menu-basics.c -lmenu -lncurses`
 //
 
 #include <curses.h>
@@ -7,7 +8,6 @@
 #include <stdlib.h>
 
 #define ARRAY_SIZE(a) (sizeof(a) / sizeof(a[0]))
-#define CTRLD 	4
 
 char *choices[] = {"Choice 1", "Choice 2", "Choice 3", "Choice 4", "Exit"};
 

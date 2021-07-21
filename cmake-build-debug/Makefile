@@ -234,199 +234,17 @@ hello-world/fast:
 .PHONY : hello-world/fast
 
 #=============================================================================
-# Target rules for targets named menu-basics
+# Target rules for targets named key
 
 # Build rule for target.
-menu-basics: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 menu-basics
-.PHONY : menu-basics
+key: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 key
+.PHONY : key
 
 # fast build rule for target.
-menu-basics/fast:
-	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-basics.dir/build.make ncurses/CMakeFiles/menu-basics.dir/build
-.PHONY : menu-basics/fast
-
-#=============================================================================
-# Target rules for targets named panel-hiding-showing
-
-# Build rule for target.
-panel-hiding-showing: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 panel-hiding-showing
-.PHONY : panel-hiding-showing
-
-# fast build rule for target.
-panel-hiding-showing/fast:
-	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/panel-hiding-showing.dir/build.make ncurses/CMakeFiles/panel-hiding-showing.dir/build
-.PHONY : panel-hiding-showing/fast
-
-#=============================================================================
-# Target rules for targets named panel-browsing
-
-# Build rule for target.
-panel-browsing: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 panel-browsing
-.PHONY : panel-browsing
-
-# fast build rule for target.
-panel-browsing/fast:
-	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/panel-browsing.dir/build.make ncurses/CMakeFiles/panel-browsing.dir/build
-.PHONY : panel-browsing/fast
-
-#=============================================================================
-# Target rules for targets named panel-basics
-
-# Build rule for target.
-panel-basics: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 panel-basics
-.PHONY : panel-basics
-
-# fast build rule for target.
-panel-basics/fast:
-	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/panel-basics.dir/build.make ncurses/CMakeFiles/panel-basics.dir/build
-.PHONY : panel-basics/fast
-
-#=============================================================================
-# Target rules for targets named acs
-
-# Build rule for target.
-acs: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 acs
-.PHONY : acs
-
-# fast build rule for target.
-acs/fast:
-	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/acs.dir/build.make ncurses/CMakeFiles/acs.dir/build
-.PHONY : acs/fast
-
-#=============================================================================
-# Target rules for targets named mouse
-
-# Build rule for target.
-mouse: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mouse
-.PHONY : mouse
-
-# fast build rule for target.
-mouse/fast:
-	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/mouse.dir/build.make ncurses/CMakeFiles/mouse.dir/build
-.PHONY : mouse/fast
-
-#=============================================================================
-# Target rules for targets named menu-window
-
-# Build rule for target.
-menu-window: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 menu-window
-.PHONY : menu-window
-
-# fast build rule for target.
-menu-window/fast:
-	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-window.dir/build.make ncurses/CMakeFiles/menu-window.dir/build
-.PHONY : menu-window/fast
-
-#=============================================================================
-# Target rules for targets named panel-moving-resizing
-
-# Build rule for target.
-panel-moving-resizing: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 panel-moving-resizing
-.PHONY : panel-moving-resizing
-
-# fast build rule for target.
-panel-moving-resizing/fast:
-	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/panel-moving-resizing.dir/build.make ncurses/CMakeFiles/panel-moving-resizing.dir/build
-.PHONY : panel-moving-resizing/fast
-
-#=============================================================================
-# Target rules for targets named scanw
-
-# Build rule for target.
-scanw: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scanw
-.PHONY : scanw
-
-# fast build rule for target.
-scanw/fast:
-	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/scanw.dir/build.make ncurses/CMakeFiles/scanw.dir/build
-.PHONY : scanw/fast
-
-#=============================================================================
-# Target rules for targets named window-border
-
-# Build rule for target.
-window-border: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 window-border
-.PHONY : window-border
-
-# fast build rule for target.
-window-border/fast:
-	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/window-border.dir/build.make ncurses/CMakeFiles/window-border.dir/build
-.PHONY : window-border/fast
-
-#=============================================================================
-# Target rules for targets named init
-
-# Build rule for target.
-init: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 init
-.PHONY : init
-
-# fast build rule for target.
-init/fast:
-	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/init.dir/build.make ncurses/CMakeFiles/init.dir/build
-.PHONY : init/fast
-
-#=============================================================================
-# Target rules for targets named hello-world-ncurses
-
-# Build rule for target.
-hello-world-ncurses: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello-world-ncurses
-.PHONY : hello-world-ncurses
-
-# fast build rule for target.
-hello-world-ncurses/fast:
-	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/hello-world-ncurses.dir/build.make ncurses/CMakeFiles/hello-world-ncurses.dir/build
-.PHONY : hello-world-ncurses/fast
-
-#=============================================================================
-# Target rules for targets named printw
-
-# Build rule for target.
-printw: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 printw
-.PHONY : printw
-
-# fast build rule for target.
-printw/fast:
-	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/printw.dir/build.make ncurses/CMakeFiles/printw.dir/build
-.PHONY : printw/fast
-
-#=============================================================================
-# Target rules for targets named more-border
-
-# Build rule for target.
-more-border: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 more-border
-.PHONY : more-border
-
-# fast build rule for target.
-more-border/fast:
-	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/more-border.dir/build.make ncurses/CMakeFiles/more-border.dir/build
-.PHONY : more-border/fast
-
-#=============================================================================
-# Target rules for targets named chgat
-
-# Build rule for target.
-chgat: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 chgat
-.PHONY : chgat
-
-# fast build rule for target.
-chgat/fast:
-	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/chgat.dir/build.make ncurses/CMakeFiles/chgat.dir/build
-.PHONY : chgat/fast
+key/fast:
+	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/key.dir/build.make ncurses/CMakeFiles/key.dir/build
+.PHONY : key/fast
 
 #=============================================================================
 # Target rules for targets named color
@@ -442,6 +260,227 @@ color/fast:
 .PHONY : color/fast
 
 #=============================================================================
+# Target rules for targets named chgat
+
+# Build rule for target.
+chgat: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 chgat
+.PHONY : chgat
+
+# fast build rule for target.
+chgat/fast:
+	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/chgat.dir/build.make ncurses/CMakeFiles/chgat.dir/build
+.PHONY : chgat/fast
+
+#=============================================================================
+# Target rules for targets named menu-scrolling
+
+# Build rule for target.
+menu-scrolling: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 menu-scrolling
+.PHONY : menu-scrolling
+
+# fast build rule for target.
+menu-scrolling/fast:
+	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-scrolling.dir/build.make ncurses/CMakeFiles/menu-scrolling.dir/build
+.PHONY : menu-scrolling/fast
+
+#=============================================================================
+# Target rules for targets named more-border
+
+# Build rule for target.
+more-border: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 more-border
+.PHONY : more-border
+
+# fast build rule for target.
+more-border/fast:
+	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/more-border.dir/build.make ncurses/CMakeFiles/more-border.dir/build
+.PHONY : more-border/fast
+
+#=============================================================================
+# Target rules for targets named printw
+
+# Build rule for target.
+printw: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 printw
+.PHONY : printw
+
+# fast build rule for target.
+printw/fast:
+	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/printw.dir/build.make ncurses/CMakeFiles/printw.dir/build
+.PHONY : printw/fast
+
+#=============================================================================
+# Target rules for targets named menu-multicol
+
+# Build rule for target.
+menu-multicol: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 menu-multicol
+.PHONY : menu-multicol
+
+# fast build rule for target.
+menu-multicol/fast:
+	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-multicol.dir/build.make ncurses/CMakeFiles/menu-multicol.dir/build
+.PHONY : menu-multicol/fast
+
+#=============================================================================
+# Target rules for targets named init
+
+# Build rule for target.
+init: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 init
+.PHONY : init
+
+# fast build rule for target.
+init/fast:
+	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/init.dir/build.make ncurses/CMakeFiles/init.dir/build
+.PHONY : init/fast
+
+#=============================================================================
+# Target rules for targets named window-border
+
+# Build rule for target.
+window-border: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 window-border
+.PHONY : window-border
+
+# fast build rule for target.
+window-border/fast:
+	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/window-border.dir/build.make ncurses/CMakeFiles/window-border.dir/build
+.PHONY : window-border/fast
+
+#=============================================================================
+# Target rules for targets named scanw
+
+# Build rule for target.
+scanw: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scanw
+.PHONY : scanw
+
+# fast build rule for target.
+scanw/fast:
+	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/scanw.dir/build.make ncurses/CMakeFiles/scanw.dir/build
+.PHONY : scanw/fast
+
+#=============================================================================
+# Target rules for targets named panel-moving-resizing
+
+# Build rule for target.
+panel-moving-resizing: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 panel-moving-resizing
+.PHONY : panel-moving-resizing
+
+# fast build rule for target.
+panel-moving-resizing/fast:
+	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/panel-moving-resizing.dir/build.make ncurses/CMakeFiles/panel-moving-resizing.dir/build
+.PHONY : panel-moving-resizing/fast
+
+#=============================================================================
+# Target rules for targets named menu-window
+
+# Build rule for target.
+menu-window: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 menu-window
+.PHONY : menu-window
+
+# fast build rule for target.
+menu-window/fast:
+	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-window.dir/build.make ncurses/CMakeFiles/menu-window.dir/build
+.PHONY : menu-window/fast
+
+#=============================================================================
+# Target rules for targets named mouse
+
+# Build rule for target.
+mouse: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mouse
+.PHONY : mouse
+
+# fast build rule for target.
+mouse/fast:
+	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/mouse.dir/build.make ncurses/CMakeFiles/mouse.dir/build
+.PHONY : mouse/fast
+
+#=============================================================================
+# Target rules for targets named acs
+
+# Build rule for target.
+acs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 acs
+.PHONY : acs
+
+# fast build rule for target.
+acs/fast:
+	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/acs.dir/build.make ncurses/CMakeFiles/acs.dir/build
+.PHONY : acs/fast
+
+#=============================================================================
+# Target rules for targets named panel-basics
+
+# Build rule for target.
+panel-basics: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 panel-basics
+.PHONY : panel-basics
+
+# fast build rule for target.
+panel-basics/fast:
+	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/panel-basics.dir/build.make ncurses/CMakeFiles/panel-basics.dir/build
+.PHONY : panel-basics/fast
+
+#=============================================================================
+# Target rules for targets named menu-user-pointer
+
+# Build rule for target.
+menu-user-pointer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 menu-user-pointer
+.PHONY : menu-user-pointer
+
+# fast build rule for target.
+menu-user-pointer/fast:
+	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-user-pointer.dir/build.make ncurses/CMakeFiles/menu-user-pointer.dir/build
+.PHONY : menu-user-pointer/fast
+
+#=============================================================================
+# Target rules for targets named hello-world-ncurses
+
+# Build rule for target.
+hello-world-ncurses: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello-world-ncurses
+.PHONY : hello-world-ncurses
+
+# fast build rule for target.
+hello-world-ncurses/fast:
+	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/hello-world-ncurses.dir/build.make ncurses/CMakeFiles/hello-world-ncurses.dir/build
+.PHONY : hello-world-ncurses/fast
+
+#=============================================================================
+# Target rules for targets named panel-browsing
+
+# Build rule for target.
+panel-browsing: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 panel-browsing
+.PHONY : panel-browsing
+
+# fast build rule for target.
+panel-browsing/fast:
+	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/panel-browsing.dir/build.make ncurses/CMakeFiles/panel-browsing.dir/build
+.PHONY : panel-browsing/fast
+
+#=============================================================================
+# Target rules for targets named panel-hiding-showing
+
+# Build rule for target.
+panel-hiding-showing: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 panel-hiding-showing
+.PHONY : panel-hiding-showing
+
+# fast build rule for target.
+panel-hiding-showing/fast:
+	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/panel-hiding-showing.dir/build.make ncurses/CMakeFiles/panel-hiding-showing.dir/build
+.PHONY : panel-hiding-showing/fast
+
+#=============================================================================
 # Target rules for targets named comments-in-bold
 
 # Build rule for target.
@@ -455,17 +494,43 @@ comments-in-bold/fast:
 .PHONY : comments-in-bold/fast
 
 #=============================================================================
-# Target rules for targets named key
+# Target rules for targets named menu-basics
 
 # Build rule for target.
-key: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 key
-.PHONY : key
+menu-basics: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 menu-basics
+.PHONY : menu-basics
 
 # fast build rule for target.
-key/fast:
-	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/key.dir/build.make ncurses/CMakeFiles/key.dir/build
-.PHONY : key/fast
+menu-basics/fast:
+	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-basics.dir/build.make ncurses/CMakeFiles/menu-basics.dir/build
+.PHONY : menu-basics/fast
+
+#=============================================================================
+# Target rules for targets named menu-multival
+
+# Build rule for target.
+menu-multival: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 menu-multival
+.PHONY : menu-multival
+
+# fast build rule for target.
+menu-multival/fast:
+	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-multival.dir/build.make ncurses/CMakeFiles/menu-multival.dir/build
+.PHONY : menu-multival/fast
+
+#=============================================================================
+# Target rules for targets named menu-options
+
+# Build rule for target.
+menu-options: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 menu-options
+.PHONY : menu-options
+
+# fast build rule for target.
+menu-options/fast:
+	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-options.dir/build.make ncurses/CMakeFiles/menu-options.dir/build
+.PHONY : menu-options/fast
 
 # Help Target
 help:
@@ -487,6 +552,11 @@ help:
 	@echo "... instant-motion"
 	@echo "... key"
 	@echo "... menu-basics"
+	@echo "... menu-multicol"
+	@echo "... menu-multival"
+	@echo "... menu-options"
+	@echo "... menu-scrolling"
+	@echo "... menu-user-pointer"
 	@echo "... menu-window"
 	@echo "... more-border"
 	@echo "... motion"

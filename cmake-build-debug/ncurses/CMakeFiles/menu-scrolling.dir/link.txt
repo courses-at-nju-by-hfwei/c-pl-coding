@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/menu-scrolling.dir/menus/menu-scrolling.c.o -o menu-scrolling 
