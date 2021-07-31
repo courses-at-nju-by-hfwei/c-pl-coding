@@ -25,3 +25,8 @@ add_executable(menu-multicol menus/menu-multicol.c)
 add_executable(menu-multival menus/menu-multival.c)
 add_executable(menu-options menus/menu-options.c)
 add_executable(menu-user-pointer menus/menu-user-pointer.c)
+
+add_executable(form-basics forms/form-basics.c)
+add_executable(form-attributes forms/form-attributes.c)
+add_executable(form-field-options forms/form-field-options.c)
+add_executable(form-windows forms/form-windows.c)

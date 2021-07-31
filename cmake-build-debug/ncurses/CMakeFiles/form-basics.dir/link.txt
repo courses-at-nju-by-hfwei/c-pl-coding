@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/form-basics.dir/forms/form-basics.c.o -o form-basics 
