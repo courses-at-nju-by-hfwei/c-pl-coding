@@ -30,3 +30,5 @@ add_executable(form-basics forms/form-basics.c)
 add_executable(form-attributes forms/form-attributes.c)
 add_executable(form-field-options forms/form-field-options.c)
 add_executable(form-windows forms/form-windows.c)
+
+add_executable(life for-fun/life.c)

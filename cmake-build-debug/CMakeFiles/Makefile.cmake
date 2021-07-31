@@ -83,6 +83,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "ncurses/CMakeFiles/hello-world-ncurses.dir/DependInfo.cmake"
   "ncurses/CMakeFiles/panel-browsing.dir/DependInfo.cmake"
   "ncurses/CMakeFiles/panel-hiding-showing.dir/DependInfo.cmake"
+  "ncurses/CMakeFiles/life.dir/DependInfo.cmake"
   "ncurses/CMakeFiles/comments-in-bold.dir/DependInfo.cmake"
   "ncurses/CMakeFiles/menu-basics.dir/DependInfo.cmake"
   "ncurses/CMakeFiles/menu-multival.dir/DependInfo.cmake"

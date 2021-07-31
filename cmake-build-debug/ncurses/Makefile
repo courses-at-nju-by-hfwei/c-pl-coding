@@ -439,6 +439,20 @@ panel-hiding-showing/fast:
 .PHONY : panel-hiding-showing/fast
 
 # Convenience name for target.
+ncurses/CMakeFiles/life.dir/rule:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/life.dir/rule
+.PHONY : ncurses/CMakeFiles/life.dir/rule
+
+# Convenience name for target.
+life: ncurses/CMakeFiles/life.dir/rule
+.PHONY : life
+
+# fast build rule for target.
+life/fast:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/life.dir/build.make ncurses/CMakeFiles/life.dir/build
+.PHONY : life/fast
+
+# Convenience name for target.
 ncurses/CMakeFiles/comments-in-bold.dir/rule:
 	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/comments-in-bold.dir/rule
 .PHONY : ncurses/CMakeFiles/comments-in-bold.dir/rule
@@ -781,6 +795,30 @@ basics/window-border.s: basics/window-border.c.s
 basics/window-border.c.s:
 	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/window-border.dir/build.make ncurses/CMakeFiles/window-border.dir/basics/window-border.c.s
 .PHONY : basics/window-border.c.s
+
+for-fun/life.o: for-fun/life.c.o
+.PHONY : for-fun/life.o
+
+# target to build an object file
+for-fun/life.c.o:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/life.dir/build.make ncurses/CMakeFiles/life.dir/for-fun/life.c.o
+.PHONY : for-fun/life.c.o
+
+for-fun/life.i: for-fun/life.c.i
+.PHONY : for-fun/life.i
+
+# target to preprocess a source file
+for-fun/life.c.i:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/life.dir/build.make ncurses/CMakeFiles/life.dir/for-fun/life.c.i
+.PHONY : for-fun/life.c.i
+
+for-fun/life.s: for-fun/life.c.s
+.PHONY : for-fun/life.s
+
+# target to generate assembly for a file
+for-fun/life.c.s:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/life.dir/build.make ncurses/CMakeFiles/life.dir/for-fun/life.c.s
+.PHONY : for-fun/life.c.s
 
 forms/form-attributes.o: forms/form-attributes.c.o
 .PHONY : forms/form-attributes.o
@@ -1161,6 +1199,7 @@ help:
 	@echo "... hello-world-ncurses"
 	@echo "... init"
 	@echo "... key"
+	@echo "... life"
 	@echo "... menu-basics"
 	@echo "... menu-multicol"
 	@echo "... menu-multival"
@@ -1213,6 +1252,9 @@ help:
 	@echo "... basics/window-border.o"
 	@echo "... basics/window-border.i"
 	@echo "... basics/window-border.s"
+	@echo "... for-fun/life.o"
+	@echo "... for-fun/life.i"
+	@echo "... for-fun/life.s"
 	@echo "... forms/form-attributes.o"
 	@echo "... forms/form-attributes.i"
 	@echo "... forms/form-attributes.s"

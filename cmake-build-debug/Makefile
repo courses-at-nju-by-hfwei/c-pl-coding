@@ -520,6 +520,19 @@ panel-hiding-showing/fast:
 .PHONY : panel-hiding-showing/fast
 
 #=============================================================================
+# Target rules for targets named life
+
+# Build rule for target.
+life: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 life
+.PHONY : life
+
+# fast build rule for target.
+life/fast:
+	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/life.dir/build.make ncurses/CMakeFiles/life.dir/build
+.PHONY : life/fast
+
+#=============================================================================
 # Target rules for targets named comments-in-bold
 
 # Build rule for target.
@@ -594,6 +607,7 @@ help:
 	@echo "... init"
 	@echo "... instant-motion"
 	@echo "... key"
+	@echo "... life"
 	@echo "... menu-basics"
 	@echo "... menu-multicol"
 	@echo "... menu-multival"
