@@ -221,6 +221,32 @@ hello-world/fast:
 .PHONY : hello-world/fast
 
 #=============================================================================
+# Target rules for targets named typing-tutor
+
+# Build rule for target.
+typing-tutor: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 typing-tutor
+.PHONY : typing-tutor
+
+# fast build rule for target.
+typing-tutor/fast:
+	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/typing-tutor.dir/build.make ncurses/CMakeFiles/typing-tutor.dir/build
+.PHONY : typing-tutor/fast
+
+#=============================================================================
+# Target rules for targets named queens
+
+# Build rule for target.
+queens: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 queens
+.PHONY : queens
+
+# fast build rule for target.
+queens/fast:
+	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/queens.dir/build.make ncurses/CMakeFiles/queens.dir/build
+.PHONY : queens/fast
+
+#=============================================================================
 # Target rules for targets named form-windows
 
 # Build rule for target.
@@ -232,6 +258,19 @@ form-windows: cmake_check_build_system
 form-windows/fast:
 	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/form-windows.dir/build.make ncurses/CMakeFiles/form-windows.dir/build
 .PHONY : form-windows/fast
+
+#=============================================================================
+# Target rules for targets named magic
+
+# Build rule for target.
+magic: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 magic
+.PHONY : magic
+
+# fast build rule for target.
+magic/fast:
+	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/magic.dir/build.make ncurses/CMakeFiles/magic.dir/build
+.PHONY : magic/fast
 
 #=============================================================================
 # Target rules for targets named key
@@ -349,6 +388,32 @@ menu-multicol: cmake_check_build_system
 menu-multicol/fast:
 	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-multicol.dir/build.make ncurses/CMakeFiles/menu-multicol.dir/build
 .PHONY : menu-multicol/fast
+
+#=============================================================================
+# Target rules for targets named shuffle
+
+# Build rule for target.
+shuffle: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 shuffle
+.PHONY : shuffle
+
+# fast build rule for target.
+shuffle/fast:
+	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/shuffle.dir/build.make ncurses/CMakeFiles/shuffle.dir/build
+.PHONY : shuffle/fast
+
+#=============================================================================
+# Target rules for targets named hanoi
+
+# Build rule for target.
+hanoi: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hanoi
+.PHONY : hanoi
+
+# fast build rule for target.
+hanoi/fast:
+	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/hanoi.dir/build.make ncurses/CMakeFiles/hanoi.dir/build
+.PHONY : hanoi/fast
 
 #=============================================================================
 # Target rules for targets named init
@@ -602,12 +667,14 @@ help:
 	@echo "... form-basics"
 	@echo "... form-field-options"
 	@echo "... form-windows"
+	@echo "... hanoi"
 	@echo "... hello-world"
 	@echo "... hello-world-ncurses"
 	@echo "... init"
 	@echo "... instant-motion"
 	@echo "... key"
 	@echo "... life"
+	@echo "... magic"
 	@echo "... menu-basics"
 	@echo "... menu-multicol"
 	@echo "... menu-multival"
@@ -624,9 +691,12 @@ help:
 	@echo "... panel-hiding-showing"
 	@echo "... panel-moving-resizing"
 	@echo "... printw"
+	@echo "... queens"
 	@echo "... reflecting-ball"
 	@echo "... scan"
 	@echo "... scanw"
+	@echo "... shuffle"
+	@echo "... typing-tutor"
 	@echo "... window-border"
 .PHONY : help
 

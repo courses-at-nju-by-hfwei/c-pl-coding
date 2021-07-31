@@ -27,3 +27,7 @@
 # `forms/`
 
 - [ ] `form-basics`: `KEY-LEFT` and `KEY-RIGHT`
+
+# `for-fun/`
+
+- [ ] `hanoi`: Segmentation fault (core dumped)

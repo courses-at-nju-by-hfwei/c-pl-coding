@@ -126,7 +126,10 @@ lectures/clean: lectures/CMakeFiles/hello-world.dir/clean
 # Directory level rules for directory ncurses
 
 # Recursive "all" directory target.
+ncurses/all: ncurses/CMakeFiles/typing-tutor.dir/all
+ncurses/all: ncurses/CMakeFiles/queens.dir/all
 ncurses/all: ncurses/CMakeFiles/form-windows.dir/all
+ncurses/all: ncurses/CMakeFiles/magic.dir/all
 ncurses/all: ncurses/CMakeFiles/key.dir/all
 ncurses/all: ncurses/CMakeFiles/color.dir/all
 ncurses/all: ncurses/CMakeFiles/chgat.dir/all
@@ -136,6 +139,8 @@ ncurses/all: ncurses/CMakeFiles/form-basics.dir/all
 ncurses/all: ncurses/CMakeFiles/more-border.dir/all
 ncurses/all: ncurses/CMakeFiles/printw.dir/all
 ncurses/all: ncurses/CMakeFiles/menu-multicol.dir/all
+ncurses/all: ncurses/CMakeFiles/shuffle.dir/all
+ncurses/all: ncurses/CMakeFiles/hanoi.dir/all
 ncurses/all: ncurses/CMakeFiles/init.dir/all
 ncurses/all: ncurses/CMakeFiles/window-border.dir/all
 ncurses/all: ncurses/CMakeFiles/scanw.dir/all
@@ -161,7 +166,10 @@ ncurses/preinstall:
 .PHONY : ncurses/preinstall
 
 # Recursive "clean" directory target.
+ncurses/clean: ncurses/CMakeFiles/typing-tutor.dir/clean
+ncurses/clean: ncurses/CMakeFiles/queens.dir/clean
 ncurses/clean: ncurses/CMakeFiles/form-windows.dir/clean
+ncurses/clean: ncurses/CMakeFiles/magic.dir/clean
 ncurses/clean: ncurses/CMakeFiles/key.dir/clean
 ncurses/clean: ncurses/CMakeFiles/color.dir/clean
 ncurses/clean: ncurses/CMakeFiles/chgat.dir/clean
@@ -171,6 +179,8 @@ ncurses/clean: ncurses/CMakeFiles/form-basics.dir/clean
 ncurses/clean: ncurses/CMakeFiles/more-border.dir/clean
 ncurses/clean: ncurses/CMakeFiles/printw.dir/clean
 ncurses/clean: ncurses/CMakeFiles/menu-multicol.dir/clean
+ncurses/clean: ncurses/CMakeFiles/shuffle.dir/clean
+ncurses/clean: ncurses/CMakeFiles/hanoi.dir/clean
 ncurses/clean: ncurses/CMakeFiles/init.dir/clean
 ncurses/clean: ncurses/CMakeFiles/window-border.dir/clean
 ncurses/clean: ncurses/CMakeFiles/scanw.dir/clean
@@ -198,7 +208,7 @@ ncurses/clean: ncurses/CMakeFiles/menu-options.dir/clean
 c-gaming-TongXing/CMakeFiles/instant-motion.dir/all:
 	$(MAKE) $(MAKESILENT) -f c-gaming-TongXing/CMakeFiles/instant-motion.dir/build.make c-gaming-TongXing/CMakeFiles/instant-motion.dir/depend
 	$(MAKE) $(MAKESILENT) -f c-gaming-TongXing/CMakeFiles/instant-motion.dir/build.make c-gaming-TongXing/CMakeFiles/instant-motion.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target instant-motion"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target instant-motion"
 .PHONY : c-gaming-TongXing/CMakeFiles/instant-motion.dir/all
 
 # Build rule for subdir invocation for target.
@@ -224,7 +234,7 @@ c-gaming-TongXing/CMakeFiles/instant-motion.dir/clean:
 c-gaming-TongXing/CMakeFiles/one-ball.dir/all:
 	$(MAKE) $(MAKESILENT) -f c-gaming-TongXing/CMakeFiles/one-ball.dir/build.make c-gaming-TongXing/CMakeFiles/one-ball.dir/depend
 	$(MAKE) $(MAKESILENT) -f c-gaming-TongXing/CMakeFiles/one-ball.dir/build.make c-gaming-TongXing/CMakeFiles/one-ball.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=53,54 "Built target one-ball"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=57,58 "Built target one-ball"
 .PHONY : c-gaming-TongXing/CMakeFiles/one-ball.dir/all
 
 # Build rule for subdir invocation for target.
@@ -276,7 +286,7 @@ c-gaming-TongXing/CMakeFiles/falling-ball.dir/clean:
 c-gaming-TongXing/CMakeFiles/motion.dir/all:
 	$(MAKE) $(MAKESILENT) -f c-gaming-TongXing/CMakeFiles/motion.dir/build.make c-gaming-TongXing/CMakeFiles/motion.dir/depend
 	$(MAKE) $(MAKESILENT) -f c-gaming-TongXing/CMakeFiles/motion.dir/build.make c-gaming-TongXing/CMakeFiles/motion.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=49,50 "Built target motion"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=53,54 "Built target motion"
 .PHONY : c-gaming-TongXing/CMakeFiles/motion.dir/all
 
 # Build rule for subdir invocation for target.
@@ -302,7 +312,7 @@ c-gaming-TongXing/CMakeFiles/motion.dir/clean:
 c-gaming-TongXing/CMakeFiles/reflecting-ball.dir/all:
 	$(MAKE) $(MAKESILENT) -f c-gaming-TongXing/CMakeFiles/reflecting-ball.dir/build.make c-gaming-TongXing/CMakeFiles/reflecting-ball.dir/depend
 	$(MAKE) $(MAKESILENT) -f c-gaming-TongXing/CMakeFiles/reflecting-ball.dir/build.make c-gaming-TongXing/CMakeFiles/reflecting-ball.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=65,66 "Built target reflecting-ball"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=71,72 "Built target reflecting-ball"
 .PHONY : c-gaming-TongXing/CMakeFiles/reflecting-ball.dir/all
 
 # Build rule for subdir invocation for target.
@@ -354,7 +364,7 @@ c-gaming-TongXing/CMakeFiles/bouncing-ball.dir/clean:
 lectures/CMakeFiles/scan.dir/all:
 	$(MAKE) $(MAKESILENT) -f lectures/CMakeFiles/scan.dir/build.make lectures/CMakeFiles/scan.dir/depend
 	$(MAKE) $(MAKESILENT) -f lectures/CMakeFiles/scan.dir/build.make lectures/CMakeFiles/scan.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=67,68 "Built target scan"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=73,74 "Built target scan"
 .PHONY : lectures/CMakeFiles/scan.dir/all
 
 # Build rule for subdir invocation for target.
@@ -380,7 +390,7 @@ lectures/CMakeFiles/scan.dir/clean:
 lectures/CMakeFiles/hello-world.dir/all:
 	$(MAKE) $(MAKESILENT) -f lectures/CMakeFiles/hello-world.dir/build.make lectures/CMakeFiles/hello-world.dir/depend
 	$(MAKE) $(MAKESILENT) -f lectures/CMakeFiles/hello-world.dir/build.make lectures/CMakeFiles/hello-world.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target hello-world"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target hello-world"
 .PHONY : lectures/CMakeFiles/hello-world.dir/all
 
 # Build rule for subdir invocation for target.
@@ -398,6 +408,58 @@ hello-world: lectures/CMakeFiles/hello-world.dir/rule
 lectures/CMakeFiles/hello-world.dir/clean:
 	$(MAKE) $(MAKESILENT) -f lectures/CMakeFiles/hello-world.dir/build.make lectures/CMakeFiles/hello-world.dir/clean
 .PHONY : lectures/CMakeFiles/hello-world.dir/clean
+
+#=============================================================================
+# Target rules for target ncurses/CMakeFiles/typing-tutor.dir
+
+# All Build rule for target.
+ncurses/CMakeFiles/typing-tutor.dir/all:
+	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/typing-tutor.dir/build.make ncurses/CMakeFiles/typing-tutor.dir/depend
+	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/typing-tutor.dir/build.make ncurses/CMakeFiles/typing-tutor.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=79,80 "Built target typing-tutor"
+.PHONY : ncurses/CMakeFiles/typing-tutor.dir/all
+
+# Build rule for subdir invocation for target.
+ncurses/CMakeFiles/typing-tutor.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/typing-tutor.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles 0
+.PHONY : ncurses/CMakeFiles/typing-tutor.dir/rule
+
+# Convenience name for target.
+typing-tutor: ncurses/CMakeFiles/typing-tutor.dir/rule
+.PHONY : typing-tutor
+
+# clean rule for target.
+ncurses/CMakeFiles/typing-tutor.dir/clean:
+	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/typing-tutor.dir/build.make ncurses/CMakeFiles/typing-tutor.dir/clean
+.PHONY : ncurses/CMakeFiles/typing-tutor.dir/clean
+
+#=============================================================================
+# Target rules for target ncurses/CMakeFiles/queens.dir
+
+# All Build rule for target.
+ncurses/CMakeFiles/queens.dir/all:
+	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/queens.dir/build.make ncurses/CMakeFiles/queens.dir/depend
+	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/queens.dir/build.make ncurses/CMakeFiles/queens.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=69,70 "Built target queens"
+.PHONY : ncurses/CMakeFiles/queens.dir/all
+
+# Build rule for subdir invocation for target.
+ncurses/CMakeFiles/queens.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/queens.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles 0
+.PHONY : ncurses/CMakeFiles/queens.dir/rule
+
+# Convenience name for target.
+queens: ncurses/CMakeFiles/queens.dir/rule
+.PHONY : queens
+
+# clean rule for target.
+ncurses/CMakeFiles/queens.dir/clean:
+	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/queens.dir/build.make ncurses/CMakeFiles/queens.dir/clean
+.PHONY : ncurses/CMakeFiles/queens.dir/clean
 
 #=============================================================================
 # Target rules for target ncurses/CMakeFiles/form-windows.dir
@@ -426,13 +488,39 @@ ncurses/CMakeFiles/form-windows.dir/clean:
 .PHONY : ncurses/CMakeFiles/form-windows.dir/clean
 
 #=============================================================================
+# Target rules for target ncurses/CMakeFiles/magic.dir
+
+# All Build rule for target.
+ncurses/CMakeFiles/magic.dir/all:
+	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/magic.dir/build.make ncurses/CMakeFiles/magic.dir/depend
+	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/magic.dir/build.make ncurses/CMakeFiles/magic.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target magic"
+.PHONY : ncurses/CMakeFiles/magic.dir/all
+
+# Build rule for subdir invocation for target.
+ncurses/CMakeFiles/magic.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/magic.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles 0
+.PHONY : ncurses/CMakeFiles/magic.dir/rule
+
+# Convenience name for target.
+magic: ncurses/CMakeFiles/magic.dir/rule
+.PHONY : magic
+
+# clean rule for target.
+ncurses/CMakeFiles/magic.dir/clean:
+	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/magic.dir/build.make ncurses/CMakeFiles/magic.dir/clean
+.PHONY : ncurses/CMakeFiles/magic.dir/clean
+
+#=============================================================================
 # Target rules for target ncurses/CMakeFiles/key.dir
 
 # All Build rule for target.
 ncurses/CMakeFiles/key.dir/all:
 	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/key.dir/build.make ncurses/CMakeFiles/key.dir/depend
 	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/key.dir/build.make ncurses/CMakeFiles/key.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target key"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target key"
 .PHONY : ncurses/CMakeFiles/key.dir/all
 
 # Build rule for subdir invocation for target.
@@ -510,7 +598,7 @@ ncurses/CMakeFiles/chgat.dir/clean:
 ncurses/CMakeFiles/menu-scrolling.dir/all:
 	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-scrolling.dir/build.make ncurses/CMakeFiles/menu-scrolling.dir/depend
 	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-scrolling.dir/build.make ncurses/CMakeFiles/menu-scrolling.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=41,42 "Built target menu-scrolling"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=45,46 "Built target menu-scrolling"
 .PHONY : ncurses/CMakeFiles/menu-scrolling.dir/all
 
 # Build rule for subdir invocation for target.
@@ -588,7 +676,7 @@ ncurses/CMakeFiles/form-basics.dir/clean:
 ncurses/CMakeFiles/more-border.dir/all:
 	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/more-border.dir/build.make ncurses/CMakeFiles/more-border.dir/depend
 	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/more-border.dir/build.make ncurses/CMakeFiles/more-border.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=47,48 "Built target more-border"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=51,52 "Built target more-border"
 .PHONY : ncurses/CMakeFiles/more-border.dir/all
 
 # Build rule for subdir invocation for target.
@@ -614,7 +702,7 @@ ncurses/CMakeFiles/more-border.dir/clean:
 ncurses/CMakeFiles/printw.dir/all:
 	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/printw.dir/build.make ncurses/CMakeFiles/printw.dir/depend
 	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/printw.dir/build.make ncurses/CMakeFiles/printw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=63,64 "Built target printw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=67,68 "Built target printw"
 .PHONY : ncurses/CMakeFiles/printw.dir/all
 
 # Build rule for subdir invocation for target.
@@ -640,7 +728,7 @@ ncurses/CMakeFiles/printw.dir/clean:
 ncurses/CMakeFiles/menu-multicol.dir/all:
 	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-multicol.dir/build.make ncurses/CMakeFiles/menu-multicol.dir/depend
 	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-multicol.dir/build.make ncurses/CMakeFiles/menu-multicol.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target menu-multicol"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=39,40 "Built target menu-multicol"
 .PHONY : ncurses/CMakeFiles/menu-multicol.dir/all
 
 # Build rule for subdir invocation for target.
@@ -660,13 +748,65 @@ ncurses/CMakeFiles/menu-multicol.dir/clean:
 .PHONY : ncurses/CMakeFiles/menu-multicol.dir/clean
 
 #=============================================================================
+# Target rules for target ncurses/CMakeFiles/shuffle.dir
+
+# All Build rule for target.
+ncurses/CMakeFiles/shuffle.dir/all:
+	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/shuffle.dir/build.make ncurses/CMakeFiles/shuffle.dir/depend
+	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/shuffle.dir/build.make ncurses/CMakeFiles/shuffle.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=77,78 "Built target shuffle"
+.PHONY : ncurses/CMakeFiles/shuffle.dir/all
+
+# Build rule for subdir invocation for target.
+ncurses/CMakeFiles/shuffle.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/shuffle.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles 0
+.PHONY : ncurses/CMakeFiles/shuffle.dir/rule
+
+# Convenience name for target.
+shuffle: ncurses/CMakeFiles/shuffle.dir/rule
+.PHONY : shuffle
+
+# clean rule for target.
+ncurses/CMakeFiles/shuffle.dir/clean:
+	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/shuffle.dir/build.make ncurses/CMakeFiles/shuffle.dir/clean
+.PHONY : ncurses/CMakeFiles/shuffle.dir/clean
+
+#=============================================================================
+# Target rules for target ncurses/CMakeFiles/hanoi.dir
+
+# All Build rule for target.
+ncurses/CMakeFiles/hanoi.dir/all:
+	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/hanoi.dir/build.make ncurses/CMakeFiles/hanoi.dir/depend
+	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/hanoi.dir/build.make ncurses/CMakeFiles/hanoi.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target hanoi"
+.PHONY : ncurses/CMakeFiles/hanoi.dir/all
+
+# Build rule for subdir invocation for target.
+ncurses/CMakeFiles/hanoi.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/hanoi.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles 0
+.PHONY : ncurses/CMakeFiles/hanoi.dir/rule
+
+# Convenience name for target.
+hanoi: ncurses/CMakeFiles/hanoi.dir/rule
+.PHONY : hanoi
+
+# clean rule for target.
+ncurses/CMakeFiles/hanoi.dir/clean:
+	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/hanoi.dir/build.make ncurses/CMakeFiles/hanoi.dir/clean
+.PHONY : ncurses/CMakeFiles/hanoi.dir/clean
+
+#=============================================================================
 # Target rules for target ncurses/CMakeFiles/init.dir
 
 # All Build rule for target.
 ncurses/CMakeFiles/init.dir/all:
 	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/init.dir/build.make ncurses/CMakeFiles/init.dir/depend
 	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/init.dir/build.make ncurses/CMakeFiles/init.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target init"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target init"
 .PHONY : ncurses/CMakeFiles/init.dir/all
 
 # Build rule for subdir invocation for target.
@@ -692,7 +832,7 @@ ncurses/CMakeFiles/init.dir/clean:
 ncurses/CMakeFiles/window-border.dir/all:
 	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/window-border.dir/build.make ncurses/CMakeFiles/window-border.dir/depend
 	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/window-border.dir/build.make ncurses/CMakeFiles/window-border.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=71,72 "Built target window-border"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=81,82 "Built target window-border"
 .PHONY : ncurses/CMakeFiles/window-border.dir/all
 
 # Build rule for subdir invocation for target.
@@ -718,7 +858,7 @@ ncurses/CMakeFiles/window-border.dir/clean:
 ncurses/CMakeFiles/scanw.dir/all:
 	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/scanw.dir/build.make ncurses/CMakeFiles/scanw.dir/depend
 	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/scanw.dir/build.make ncurses/CMakeFiles/scanw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=69,70 "Built target scanw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=75,76 "Built target scanw"
 .PHONY : ncurses/CMakeFiles/scanw.dir/all
 
 # Build rule for subdir invocation for target.
@@ -744,7 +884,7 @@ ncurses/CMakeFiles/scanw.dir/clean:
 ncurses/CMakeFiles/panel-moving-resizing.dir/all:
 	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/panel-moving-resizing.dir/build.make ncurses/CMakeFiles/panel-moving-resizing.dir/depend
 	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/panel-moving-resizing.dir/build.make ncurses/CMakeFiles/panel-moving-resizing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=61,62 "Built target panel-moving-resizing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=65,66 "Built target panel-moving-resizing"
 .PHONY : ncurses/CMakeFiles/panel-moving-resizing.dir/all
 
 # Build rule for subdir invocation for target.
@@ -770,7 +910,7 @@ ncurses/CMakeFiles/panel-moving-resizing.dir/clean:
 ncurses/CMakeFiles/menu-window.dir/all:
 	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-window.dir/build.make ncurses/CMakeFiles/menu-window.dir/depend
 	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-window.dir/build.make ncurses/CMakeFiles/menu-window.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=45,46 "Built target menu-window"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=49,50 "Built target menu-window"
 .PHONY : ncurses/CMakeFiles/menu-window.dir/all
 
 # Build rule for subdir invocation for target.
@@ -796,7 +936,7 @@ ncurses/CMakeFiles/menu-window.dir/clean:
 ncurses/CMakeFiles/mouse.dir/all:
 	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/mouse.dir/build.make ncurses/CMakeFiles/mouse.dir/depend
 	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/mouse.dir/build.make ncurses/CMakeFiles/mouse.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=51,52 "Built target mouse"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=55,56 "Built target mouse"
 .PHONY : ncurses/CMakeFiles/mouse.dir/all
 
 # Build rule for subdir invocation for target.
@@ -874,7 +1014,7 @@ ncurses/CMakeFiles/form-field-options.dir/clean:
 ncurses/CMakeFiles/panel-basics.dir/all:
 	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/panel-basics.dir/build.make ncurses/CMakeFiles/panel-basics.dir/depend
 	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/panel-basics.dir/build.make ncurses/CMakeFiles/panel-basics.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=55,56 "Built target panel-basics"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=59,60 "Built target panel-basics"
 .PHONY : ncurses/CMakeFiles/panel-basics.dir/all
 
 # Build rule for subdir invocation for target.
@@ -900,7 +1040,7 @@ ncurses/CMakeFiles/panel-basics.dir/clean:
 ncurses/CMakeFiles/menu-user-pointer.dir/all:
 	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-user-pointer.dir/build.make ncurses/CMakeFiles/menu-user-pointer.dir/depend
 	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-user-pointer.dir/build.make ncurses/CMakeFiles/menu-user-pointer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=43,44 "Built target menu-user-pointer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=47,48 "Built target menu-user-pointer"
 .PHONY : ncurses/CMakeFiles/menu-user-pointer.dir/all
 
 # Build rule for subdir invocation for target.
@@ -926,7 +1066,7 @@ ncurses/CMakeFiles/menu-user-pointer.dir/clean:
 ncurses/CMakeFiles/hello-world-ncurses.dir/all:
 	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/hello-world-ncurses.dir/build.make ncurses/CMakeFiles/hello-world-ncurses.dir/depend
 	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/hello-world-ncurses.dir/build.make ncurses/CMakeFiles/hello-world-ncurses.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target hello-world-ncurses"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target hello-world-ncurses"
 .PHONY : ncurses/CMakeFiles/hello-world-ncurses.dir/all
 
 # Build rule for subdir invocation for target.
@@ -952,7 +1092,7 @@ ncurses/CMakeFiles/hello-world-ncurses.dir/clean:
 ncurses/CMakeFiles/panel-browsing.dir/all:
 	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/panel-browsing.dir/build.make ncurses/CMakeFiles/panel-browsing.dir/depend
 	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/panel-browsing.dir/build.make ncurses/CMakeFiles/panel-browsing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=57,58 "Built target panel-browsing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=61,62 "Built target panel-browsing"
 .PHONY : ncurses/CMakeFiles/panel-browsing.dir/all
 
 # Build rule for subdir invocation for target.
@@ -978,7 +1118,7 @@ ncurses/CMakeFiles/panel-browsing.dir/clean:
 ncurses/CMakeFiles/panel-hiding-showing.dir/all:
 	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/panel-hiding-showing.dir/build.make ncurses/CMakeFiles/panel-hiding-showing.dir/depend
 	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/panel-hiding-showing.dir/build.make ncurses/CMakeFiles/panel-hiding-showing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=59,60 "Built target panel-hiding-showing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=63,64 "Built target panel-hiding-showing"
 .PHONY : ncurses/CMakeFiles/panel-hiding-showing.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1004,7 +1144,7 @@ ncurses/CMakeFiles/panel-hiding-showing.dir/clean:
 ncurses/CMakeFiles/life.dir/all:
 	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/life.dir/build.make ncurses/CMakeFiles/life.dir/depend
 	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/life.dir/build.make ncurses/CMakeFiles/life.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target life"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target life"
 .PHONY : ncurses/CMakeFiles/life.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1056,7 +1196,7 @@ ncurses/CMakeFiles/comments-in-bold.dir/clean:
 ncurses/CMakeFiles/menu-basics.dir/all:
 	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-basics.dir/build.make ncurses/CMakeFiles/menu-basics.dir/depend
 	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-basics.dir/build.make ncurses/CMakeFiles/menu-basics.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target menu-basics"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=37,38 "Built target menu-basics"
 .PHONY : ncurses/CMakeFiles/menu-basics.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1082,7 +1222,7 @@ ncurses/CMakeFiles/menu-basics.dir/clean:
 ncurses/CMakeFiles/menu-multival.dir/all:
 	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-multival.dir/build.make ncurses/CMakeFiles/menu-multival.dir/depend
 	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-multival.dir/build.make ncurses/CMakeFiles/menu-multival.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=37,38 "Built target menu-multival"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=41,42 "Built target menu-multival"
 .PHONY : ncurses/CMakeFiles/menu-multival.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1108,7 +1248,7 @@ ncurses/CMakeFiles/menu-multival.dir/clean:
 ncurses/CMakeFiles/menu-options.dir/all:
 	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-options.dir/build.make ncurses/CMakeFiles/menu-options.dir/depend
 	$(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-options.dir/build.make ncurses/CMakeFiles/menu-options.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=39,40 "Built target menu-options"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=43,44 "Built target menu-options"
 .PHONY : ncurses/CMakeFiles/menu-options.dir/all
 
 # Build rule for subdir invocation for target.

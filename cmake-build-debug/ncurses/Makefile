@@ -117,6 +117,34 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+ncurses/CMakeFiles/typing-tutor.dir/rule:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/typing-tutor.dir/rule
+.PHONY : ncurses/CMakeFiles/typing-tutor.dir/rule
+
+# Convenience name for target.
+typing-tutor: ncurses/CMakeFiles/typing-tutor.dir/rule
+.PHONY : typing-tutor
+
+# fast build rule for target.
+typing-tutor/fast:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/typing-tutor.dir/build.make ncurses/CMakeFiles/typing-tutor.dir/build
+.PHONY : typing-tutor/fast
+
+# Convenience name for target.
+ncurses/CMakeFiles/queens.dir/rule:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/queens.dir/rule
+.PHONY : ncurses/CMakeFiles/queens.dir/rule
+
+# Convenience name for target.
+queens: ncurses/CMakeFiles/queens.dir/rule
+.PHONY : queens
+
+# fast build rule for target.
+queens/fast:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/queens.dir/build.make ncurses/CMakeFiles/queens.dir/build
+.PHONY : queens/fast
+
+# Convenience name for target.
 ncurses/CMakeFiles/form-windows.dir/rule:
 	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/form-windows.dir/rule
 .PHONY : ncurses/CMakeFiles/form-windows.dir/rule
@@ -129,6 +157,20 @@ form-windows: ncurses/CMakeFiles/form-windows.dir/rule
 form-windows/fast:
 	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/form-windows.dir/build.make ncurses/CMakeFiles/form-windows.dir/build
 .PHONY : form-windows/fast
+
+# Convenience name for target.
+ncurses/CMakeFiles/magic.dir/rule:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/magic.dir/rule
+.PHONY : ncurses/CMakeFiles/magic.dir/rule
+
+# Convenience name for target.
+magic: ncurses/CMakeFiles/magic.dir/rule
+.PHONY : magic
+
+# fast build rule for target.
+magic/fast:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/magic.dir/build.make ncurses/CMakeFiles/magic.dir/build
+.PHONY : magic/fast
 
 # Convenience name for target.
 ncurses/CMakeFiles/key.dir/rule:
@@ -255,6 +297,34 @@ menu-multicol: ncurses/CMakeFiles/menu-multicol.dir/rule
 menu-multicol/fast:
 	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/menu-multicol.dir/build.make ncurses/CMakeFiles/menu-multicol.dir/build
 .PHONY : menu-multicol/fast
+
+# Convenience name for target.
+ncurses/CMakeFiles/shuffle.dir/rule:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/shuffle.dir/rule
+.PHONY : ncurses/CMakeFiles/shuffle.dir/rule
+
+# Convenience name for target.
+shuffle: ncurses/CMakeFiles/shuffle.dir/rule
+.PHONY : shuffle
+
+# fast build rule for target.
+shuffle/fast:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/shuffle.dir/build.make ncurses/CMakeFiles/shuffle.dir/build
+.PHONY : shuffle/fast
+
+# Convenience name for target.
+ncurses/CMakeFiles/hanoi.dir/rule:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ncurses/CMakeFiles/hanoi.dir/rule
+.PHONY : ncurses/CMakeFiles/hanoi.dir/rule
+
+# Convenience name for target.
+hanoi: ncurses/CMakeFiles/hanoi.dir/rule
+.PHONY : hanoi
+
+# fast build rule for target.
+hanoi/fast:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/hanoi.dir/build.make ncurses/CMakeFiles/hanoi.dir/build
+.PHONY : hanoi/fast
 
 # Convenience name for target.
 ncurses/CMakeFiles/init.dir/rule:
@@ -796,6 +866,30 @@ basics/window-border.c.s:
 	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/window-border.dir/build.make ncurses/CMakeFiles/window-border.dir/basics/window-border.c.s
 .PHONY : basics/window-border.c.s
 
+for-fun/hanoi.o: for-fun/hanoi.c.o
+.PHONY : for-fun/hanoi.o
+
+# target to build an object file
+for-fun/hanoi.c.o:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/hanoi.dir/build.make ncurses/CMakeFiles/hanoi.dir/for-fun/hanoi.c.o
+.PHONY : for-fun/hanoi.c.o
+
+for-fun/hanoi.i: for-fun/hanoi.c.i
+.PHONY : for-fun/hanoi.i
+
+# target to preprocess a source file
+for-fun/hanoi.c.i:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/hanoi.dir/build.make ncurses/CMakeFiles/hanoi.dir/for-fun/hanoi.c.i
+.PHONY : for-fun/hanoi.c.i
+
+for-fun/hanoi.s: for-fun/hanoi.c.s
+.PHONY : for-fun/hanoi.s
+
+# target to generate assembly for a file
+for-fun/hanoi.c.s:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/hanoi.dir/build.make ncurses/CMakeFiles/hanoi.dir/for-fun/hanoi.c.s
+.PHONY : for-fun/hanoi.c.s
+
 for-fun/life.o: for-fun/life.c.o
 .PHONY : for-fun/life.o
 
@@ -819,6 +913,102 @@ for-fun/life.s: for-fun/life.c.s
 for-fun/life.c.s:
 	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/life.dir/build.make ncurses/CMakeFiles/life.dir/for-fun/life.c.s
 .PHONY : for-fun/life.c.s
+
+for-fun/magic.o: for-fun/magic.c.o
+.PHONY : for-fun/magic.o
+
+# target to build an object file
+for-fun/magic.c.o:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/magic.dir/build.make ncurses/CMakeFiles/magic.dir/for-fun/magic.c.o
+.PHONY : for-fun/magic.c.o
+
+for-fun/magic.i: for-fun/magic.c.i
+.PHONY : for-fun/magic.i
+
+# target to preprocess a source file
+for-fun/magic.c.i:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/magic.dir/build.make ncurses/CMakeFiles/magic.dir/for-fun/magic.c.i
+.PHONY : for-fun/magic.c.i
+
+for-fun/magic.s: for-fun/magic.c.s
+.PHONY : for-fun/magic.s
+
+# target to generate assembly for a file
+for-fun/magic.c.s:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/magic.dir/build.make ncurses/CMakeFiles/magic.dir/for-fun/magic.c.s
+.PHONY : for-fun/magic.c.s
+
+for-fun/queens.o: for-fun/queens.c.o
+.PHONY : for-fun/queens.o
+
+# target to build an object file
+for-fun/queens.c.o:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/queens.dir/build.make ncurses/CMakeFiles/queens.dir/for-fun/queens.c.o
+.PHONY : for-fun/queens.c.o
+
+for-fun/queens.i: for-fun/queens.c.i
+.PHONY : for-fun/queens.i
+
+# target to preprocess a source file
+for-fun/queens.c.i:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/queens.dir/build.make ncurses/CMakeFiles/queens.dir/for-fun/queens.c.i
+.PHONY : for-fun/queens.c.i
+
+for-fun/queens.s: for-fun/queens.c.s
+.PHONY : for-fun/queens.s
+
+# target to generate assembly for a file
+for-fun/queens.c.s:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/queens.dir/build.make ncurses/CMakeFiles/queens.dir/for-fun/queens.c.s
+.PHONY : for-fun/queens.c.s
+
+for-fun/shuffle.o: for-fun/shuffle.c.o
+.PHONY : for-fun/shuffle.o
+
+# target to build an object file
+for-fun/shuffle.c.o:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/shuffle.dir/build.make ncurses/CMakeFiles/shuffle.dir/for-fun/shuffle.c.o
+.PHONY : for-fun/shuffle.c.o
+
+for-fun/shuffle.i: for-fun/shuffle.c.i
+.PHONY : for-fun/shuffle.i
+
+# target to preprocess a source file
+for-fun/shuffle.c.i:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/shuffle.dir/build.make ncurses/CMakeFiles/shuffle.dir/for-fun/shuffle.c.i
+.PHONY : for-fun/shuffle.c.i
+
+for-fun/shuffle.s: for-fun/shuffle.c.s
+.PHONY : for-fun/shuffle.s
+
+# target to generate assembly for a file
+for-fun/shuffle.c.s:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/shuffle.dir/build.make ncurses/CMakeFiles/shuffle.dir/for-fun/shuffle.c.s
+.PHONY : for-fun/shuffle.c.s
+
+for-fun/typing-tutor.o: for-fun/typing-tutor.c.o
+.PHONY : for-fun/typing-tutor.o
+
+# target to build an object file
+for-fun/typing-tutor.c.o:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/typing-tutor.dir/build.make ncurses/CMakeFiles/typing-tutor.dir/for-fun/typing-tutor.c.o
+.PHONY : for-fun/typing-tutor.c.o
+
+for-fun/typing-tutor.i: for-fun/typing-tutor.c.i
+.PHONY : for-fun/typing-tutor.i
+
+# target to preprocess a source file
+for-fun/typing-tutor.c.i:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/typing-tutor.dir/build.make ncurses/CMakeFiles/typing-tutor.dir/for-fun/typing-tutor.c.i
+.PHONY : for-fun/typing-tutor.c.i
+
+for-fun/typing-tutor.s: for-fun/typing-tutor.c.s
+.PHONY : for-fun/typing-tutor.s
+
+# target to generate assembly for a file
+for-fun/typing-tutor.c.s:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ncurses/CMakeFiles/typing-tutor.dir/build.make ncurses/CMakeFiles/typing-tutor.dir/for-fun/typing-tutor.c.s
+.PHONY : for-fun/typing-tutor.c.s
 
 forms/form-attributes.o: forms/form-attributes.c.o
 .PHONY : forms/form-attributes.o
@@ -1196,10 +1386,12 @@ help:
 	@echo "... form-basics"
 	@echo "... form-field-options"
 	@echo "... form-windows"
+	@echo "... hanoi"
 	@echo "... hello-world-ncurses"
 	@echo "... init"
 	@echo "... key"
 	@echo "... life"
+	@echo "... magic"
 	@echo "... menu-basics"
 	@echo "... menu-multicol"
 	@echo "... menu-multival"
@@ -1214,7 +1406,10 @@ help:
 	@echo "... panel-hiding-showing"
 	@echo "... panel-moving-resizing"
 	@echo "... printw"
+	@echo "... queens"
 	@echo "... scanw"
+	@echo "... shuffle"
+	@echo "... typing-tutor"
 	@echo "... window-border"
 	@echo "... basics/acs.o"
 	@echo "... basics/acs.i"
@@ -1252,9 +1447,24 @@ help:
 	@echo "... basics/window-border.o"
 	@echo "... basics/window-border.i"
 	@echo "... basics/window-border.s"
+	@echo "... for-fun/hanoi.o"
+	@echo "... for-fun/hanoi.i"
+	@echo "... for-fun/hanoi.s"
 	@echo "... for-fun/life.o"
 	@echo "... for-fun/life.i"
 	@echo "... for-fun/life.s"
+	@echo "... for-fun/magic.o"
+	@echo "... for-fun/magic.i"
+	@echo "... for-fun/magic.s"
+	@echo "... for-fun/queens.o"
+	@echo "... for-fun/queens.i"
+	@echo "... for-fun/queens.s"
+	@echo "... for-fun/shuffle.o"
+	@echo "... for-fun/shuffle.i"
+	@echo "... for-fun/shuffle.s"
+	@echo "... for-fun/typing-tutor.o"
+	@echo "... for-fun/typing-tutor.i"
+	@echo "... for-fun/typing-tutor.s"
 	@echo "... forms/form-attributes.o"
 	@echo "... forms/form-attributes.i"
 	@echo "... forms/form-attributes.s"

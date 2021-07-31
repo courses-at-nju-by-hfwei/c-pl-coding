@@ -32,3 +32,8 @@ add_executable(form-field-options forms/form-field-options.c)
 add_executable(form-windows forms/form-windows.c)
 
 add_executable(life for-fun/life.c)
+add_executable(hanoi for-fun/hanoi.c)
+add_executable(magic for-fun/magic.c)
+add_executable(queens for-fun/queens.c)
+add_executable(shuffle for-fun/shuffle.c)
+add_executable(typing-tutor for-fun/typing-tutor.c)
