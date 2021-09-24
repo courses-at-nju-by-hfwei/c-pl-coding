@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/floating.dir/types/floating.c.o -o floating 

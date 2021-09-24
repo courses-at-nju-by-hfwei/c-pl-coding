@@ -1,1 +1,1 @@
-/usr/bin/cc -g CMakeFiles/scan.dir/io/scan.c.o -o scan 
+/usr/bin/cc -g CMakeFiles/scan.dir/io/io.c.o -o scan 

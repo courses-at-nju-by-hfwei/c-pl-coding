@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/hengxin/Documents/c-pl-class/c-pl-coding/lectures/io/scan.c" "/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/lectures/CMakeFiles/scan.dir/io/scan.c.o"
+  "/home/hengxin/Documents/c-pl-class/c-pl-coding/lectures/io/io.c" "/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/lectures/CMakeFiles/scan.dir/io/io.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

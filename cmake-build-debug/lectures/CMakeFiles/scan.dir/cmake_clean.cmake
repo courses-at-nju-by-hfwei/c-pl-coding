@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/scan.dir/io/scan.c.o"
+  "CMakeFiles/scan.dir/io/io.c.o"
   "scan"
   "scan.pdb"
 )

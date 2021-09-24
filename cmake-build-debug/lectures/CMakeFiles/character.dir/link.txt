@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/character.dir/types/character.c.o -o character 

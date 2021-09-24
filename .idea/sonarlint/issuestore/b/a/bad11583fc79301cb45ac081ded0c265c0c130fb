@@ -1,0 +1,16 @@
+
+sc:S52769"Timplicit conversion loses integer precision: 'time_t' (aka 'long') to 'unsigned int'(™æØÿÿÿÿÿÿ8˜Ê„È¿/
+5c:S1763s"code will never be executed(ì´ˆ8šÊ„È¿/
+ec:S5276š"Eimplicit conversion loses integer precision: 'unsigned long' to 'int'(¥Çú®ÿÿÿÿÿ8›Ê„È¿/
+bc:S5276³"Gimplicit conversion loses floating-point precision: 'double' to 'float'(®âİ—8Ê„È¿/
+\c:S5276à"<implicit conversion from 'int' to 'float' may lose precision(áá¾‹ÿÿÿÿÿ8Ê„È¿/
+ec:S5276ß"Eimplicit conversion loses integer precision: 'unsigned long' to 'int'(àÚˆÕùÿÿÿÿ8 Ê„È¿/
+bc:SingleDeclarationPerStatement("0Define each identifier in a dedicated statement.(ÉúÒñ8©Ê„È¿/
+gc:SingleDeclarationPerStatement,"0Define each identifier in a dedicated statement.(¡Ê²‘şÿÿÿÿ8©Ê„È¿/
+gc:SingleDeclarationPerStatement-"0Define each identifier in a dedicated statement.(’™Èûşÿÿÿÿ8ªÊ„È¿/
+bc:SingleDeclarationPerStatementy"0Define each identifier in a dedicated statement.(ÉúÒñ8ªÊ„È¿/
+bc:SingleDeclarationPerStatement˜"0Define each identifier in a dedicated statement.(Ôşø
+8ªÊ„È¿/
+hc:SingleDeclarationPerStatement¯"0Define each identifier in a dedicated statement.(ëËàÍıÿÿÿÿ8®Ê„È¿/
+bc:SingleDeclarationPerStatementÒ"0Define each identifier in a dedicated statement.(Éã»8®Ê„È¿/
+<c:S1854Ù"!Value stored to 'x' is never read(Æ§Å¡8·Ì„È¿/

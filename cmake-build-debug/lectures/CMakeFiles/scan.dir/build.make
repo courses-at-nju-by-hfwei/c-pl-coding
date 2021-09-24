@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.4746.93/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5284.51/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.4746.93/bin/cmake/linux/bin/cmake -E rm -f
+RM = /home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5284.51/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -66,27 +66,27 @@ include lectures/CMakeFiles/scan.dir/progress.make
 # Include the compile flags for this target's objects.
 include lectures/CMakeFiles/scan.dir/flags.make
 
-lectures/CMakeFiles/scan.dir/io/scan.c.o: lectures/CMakeFiles/scan.dir/flags.make
-lectures/CMakeFiles/scan.dir/io/scan.c.o: ../lectures/io/scan.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lectures/CMakeFiles/scan.dir/io/scan.c.o"
-	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/lectures && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scan.dir/io/scan.c.o -c /home/hengxin/Documents/c-pl-class/c-pl-coding/lectures/io/scan.c
+lectures/CMakeFiles/scan.dir/io/io.c.o: lectures/CMakeFiles/scan.dir/flags.make
+lectures/CMakeFiles/scan.dir/io/io.c.o: ../lectures/io/io.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lectures/CMakeFiles/scan.dir/io/io.c.o"
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/lectures && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scan.dir/io/io.c.o -c /home/hengxin/Documents/c-pl-class/c-pl-coding/lectures/io/io.c
 
-lectures/CMakeFiles/scan.dir/io/scan.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/scan.dir/io/scan.c.i"
-	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/lectures && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hengxin/Documents/c-pl-class/c-pl-coding/lectures/io/scan.c > CMakeFiles/scan.dir/io/scan.c.i
+lectures/CMakeFiles/scan.dir/io/io.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/scan.dir/io/io.c.i"
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/lectures && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hengxin/Documents/c-pl-class/c-pl-coding/lectures/io/io.c > CMakeFiles/scan.dir/io/io.c.i
 
-lectures/CMakeFiles/scan.dir/io/scan.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/scan.dir/io/scan.c.s"
-	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/lectures && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hengxin/Documents/c-pl-class/c-pl-coding/lectures/io/scan.c -o CMakeFiles/scan.dir/io/scan.c.s
+lectures/CMakeFiles/scan.dir/io/io.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/scan.dir/io/io.c.s"
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/lectures && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hengxin/Documents/c-pl-class/c-pl-coding/lectures/io/io.c -o CMakeFiles/scan.dir/io/io.c.s
 
 # Object files for target scan
 scan_OBJECTS = \
-"CMakeFiles/scan.dir/io/scan.c.o"
+"CMakeFiles/scan.dir/io/io.c.o"
 
 # External object files for target scan
 scan_EXTERNAL_OBJECTS =
 
-lectures/scan: lectures/CMakeFiles/scan.dir/io/scan.c.o
+lectures/scan: lectures/CMakeFiles/scan.dir/io/io.c.o
 lectures/scan: lectures/CMakeFiles/scan.dir/build.make
 lectures/scan: lectures/CMakeFiles/scan.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable scan"

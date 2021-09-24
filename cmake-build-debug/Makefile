@@ -48,10 +48,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.4746.93/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5284.51/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.4746.93/bin/cmake/linux/bin/cmake -E rm -f
+RM = /home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5284.51/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-de
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.4746.93/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5284.51/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -78,7 +78,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.4746.93/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5284.51/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -195,17 +195,30 @@ bouncing-ball/fast:
 .PHONY : bouncing-ball/fast
 
 #=============================================================================
-# Target rules for targets named scan
+# Target rules for targets named character
 
 # Build rule for target.
-scan: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scan
-.PHONY : scan
+character: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 character
+.PHONY : character
 
 # fast build rule for target.
-scan/fast:
-	$(MAKE) $(MAKESILENT) -f lectures/CMakeFiles/scan.dir/build.make lectures/CMakeFiles/scan.dir/build
-.PHONY : scan/fast
+character/fast:
+	$(MAKE) $(MAKESILENT) -f lectures/CMakeFiles/character.dir/build.make lectures/CMakeFiles/character.dir/build
+.PHONY : character/fast
+
+#=============================================================================
+# Target rules for targets named guess
+
+# Build rule for target.
+guess: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 guess
+.PHONY : guess
+
+# fast build rule for target.
+guess/fast:
+	$(MAKE) $(MAKESILENT) -f lectures/CMakeFiles/guess.dir/build.make lectures/CMakeFiles/guess.dir/build
+.PHONY : guess/fast
 
 #=============================================================================
 # Target rules for targets named hello-world
@@ -219,6 +232,45 @@ hello-world: cmake_check_build_system
 hello-world/fast:
 	$(MAKE) $(MAKESILENT) -f lectures/CMakeFiles/hello-world.dir/build.make lectures/CMakeFiles/hello-world.dir/build
 .PHONY : hello-world/fast
+
+#=============================================================================
+# Target rules for targets named floating
+
+# Build rule for target.
+floating: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 floating
+.PHONY : floating
+
+# fast build rule for target.
+floating/fast:
+	$(MAKE) $(MAKESILENT) -f lectures/CMakeFiles/floating.dir/build.make lectures/CMakeFiles/floating.dir/build
+.PHONY : floating/fast
+
+#=============================================================================
+# Target rules for targets named scan
+
+# Build rule for target.
+scan: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scan
+.PHONY : scan
+
+# fast build rule for target.
+scan/fast:
+	$(MAKE) $(MAKESILENT) -f lectures/CMakeFiles/scan.dir/build.make lectures/CMakeFiles/scan.dir/build
+.PHONY : scan/fast
+
+#=============================================================================
+# Target rules for targets named integral
+
+# Build rule for target.
+integral: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 integral
+.PHONY : integral
+
+# fast build rule for target.
+integral/fast:
+	$(MAKE) $(MAKESILENT) -f lectures/CMakeFiles/integral.dir/build.make lectures/CMakeFiles/integral.dir/build
+.PHONY : integral/fast
 
 #=============================================================================
 # Target rules for targets named typing-tutor
@@ -659,19 +711,23 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... acs"
 	@echo "... bouncing-ball"
+	@echo "... character"
 	@echo "... chgat"
 	@echo "... color"
 	@echo "... comments-in-bold"
 	@echo "... falling-ball"
+	@echo "... floating"
 	@echo "... form-attributes"
 	@echo "... form-basics"
 	@echo "... form-field-options"
 	@echo "... form-windows"
+	@echo "... guess"
 	@echo "... hanoi"
 	@echo "... hello-world"
 	@echo "... hello-world-ncurses"
 	@echo "... init"
 	@echo "... instant-motion"
+	@echo "... integral"
 	@echo "... key"
 	@echo "... life"
 	@echo "... magic"

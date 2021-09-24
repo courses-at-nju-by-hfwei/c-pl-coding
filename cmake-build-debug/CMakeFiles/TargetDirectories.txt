@@ -9,9 +9,13 @@
 /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/c-gaming-TongXing/CMakeFiles/reflecting-ball.dir
 /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/c-gaming-TongXing/CMakeFiles/bouncing-ball.dir
 /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/lectures/CMakeFiles/rebuild_cache.dir
+/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/lectures/CMakeFiles/character.dir
 /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/lectures/CMakeFiles/edit_cache.dir
-/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/lectures/CMakeFiles/scan.dir
+/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/lectures/CMakeFiles/guess.dir
 /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/lectures/CMakeFiles/hello-world.dir
+/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/lectures/CMakeFiles/floating.dir
+/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/lectures/CMakeFiles/scan.dir
+/home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/lectures/CMakeFiles/integral.dir
 /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/CMakeFiles/rebuild_cache.dir
 /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/CMakeFiles/typing-tutor.dir
 /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug/ncurses/CMakeFiles/queens.dir

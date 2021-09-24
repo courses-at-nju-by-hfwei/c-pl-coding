@@ -48,10 +48,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.4746.93/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5284.51/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.4746.93/bin/cmake/linux/bin/cmake -E rm -f
+RM = /home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5284.51/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-de
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.4746.93/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5284.51/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -78,7 +78,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.4746.93/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5284.51/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -117,18 +117,32 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-lectures/CMakeFiles/scan.dir/rule:
-	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lectures/CMakeFiles/scan.dir/rule
-.PHONY : lectures/CMakeFiles/scan.dir/rule
+lectures/CMakeFiles/character.dir/rule:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lectures/CMakeFiles/character.dir/rule
+.PHONY : lectures/CMakeFiles/character.dir/rule
 
 # Convenience name for target.
-scan: lectures/CMakeFiles/scan.dir/rule
-.PHONY : scan
+character: lectures/CMakeFiles/character.dir/rule
+.PHONY : character
 
 # fast build rule for target.
-scan/fast:
-	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lectures/CMakeFiles/scan.dir/build.make lectures/CMakeFiles/scan.dir/build
-.PHONY : scan/fast
+character/fast:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lectures/CMakeFiles/character.dir/build.make lectures/CMakeFiles/character.dir/build
+.PHONY : character/fast
+
+# Convenience name for target.
+lectures/CMakeFiles/guess.dir/rule:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lectures/CMakeFiles/guess.dir/rule
+.PHONY : lectures/CMakeFiles/guess.dir/rule
+
+# Convenience name for target.
+guess: lectures/CMakeFiles/guess.dir/rule
+.PHONY : guess
+
+# fast build rule for target.
+guess/fast:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lectures/CMakeFiles/guess.dir/build.make lectures/CMakeFiles/guess.dir/build
+.PHONY : guess/fast
 
 # Convenience name for target.
 lectures/CMakeFiles/hello-world.dir/rule:
@@ -143,6 +157,72 @@ hello-world: lectures/CMakeFiles/hello-world.dir/rule
 hello-world/fast:
 	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lectures/CMakeFiles/hello-world.dir/build.make lectures/CMakeFiles/hello-world.dir/build
 .PHONY : hello-world/fast
+
+# Convenience name for target.
+lectures/CMakeFiles/floating.dir/rule:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lectures/CMakeFiles/floating.dir/rule
+.PHONY : lectures/CMakeFiles/floating.dir/rule
+
+# Convenience name for target.
+floating: lectures/CMakeFiles/floating.dir/rule
+.PHONY : floating
+
+# fast build rule for target.
+floating/fast:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lectures/CMakeFiles/floating.dir/build.make lectures/CMakeFiles/floating.dir/build
+.PHONY : floating/fast
+
+# Convenience name for target.
+lectures/CMakeFiles/scan.dir/rule:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lectures/CMakeFiles/scan.dir/rule
+.PHONY : lectures/CMakeFiles/scan.dir/rule
+
+# Convenience name for target.
+scan: lectures/CMakeFiles/scan.dir/rule
+.PHONY : scan
+
+# fast build rule for target.
+scan/fast:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lectures/CMakeFiles/scan.dir/build.make lectures/CMakeFiles/scan.dir/build
+.PHONY : scan/fast
+
+# Convenience name for target.
+lectures/CMakeFiles/integral.dir/rule:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lectures/CMakeFiles/integral.dir/rule
+.PHONY : lectures/CMakeFiles/integral.dir/rule
+
+# Convenience name for target.
+integral: lectures/CMakeFiles/integral.dir/rule
+.PHONY : integral
+
+# fast build rule for target.
+integral/fast:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lectures/CMakeFiles/integral.dir/build.make lectures/CMakeFiles/integral.dir/build
+.PHONY : integral/fast
+
+guess-the-number/guess.o: guess-the-number/guess.c.o
+.PHONY : guess-the-number/guess.o
+
+# target to build an object file
+guess-the-number/guess.c.o:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lectures/CMakeFiles/guess.dir/build.make lectures/CMakeFiles/guess.dir/guess-the-number/guess.c.o
+.PHONY : guess-the-number/guess.c.o
+
+guess-the-number/guess.i: guess-the-number/guess.c.i
+.PHONY : guess-the-number/guess.i
+
+# target to preprocess a source file
+guess-the-number/guess.c.i:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lectures/CMakeFiles/guess.dir/build.make lectures/CMakeFiles/guess.dir/guess-the-number/guess.c.i
+.PHONY : guess-the-number/guess.c.i
+
+guess-the-number/guess.s: guess-the-number/guess.c.s
+.PHONY : guess-the-number/guess.s
+
+# target to generate assembly for a file
+guess-the-number/guess.c.s:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lectures/CMakeFiles/guess.dir/build.make lectures/CMakeFiles/guess.dir/guess-the-number/guess.c.s
+.PHONY : guess-the-number/guess.c.s
 
 hello-world/hello-world.o: hello-world/hello-world.c.o
 .PHONY : hello-world/hello-world.o
@@ -168,29 +248,101 @@ hello-world/hello-world.c.s:
 	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lectures/CMakeFiles/hello-world.dir/build.make lectures/CMakeFiles/hello-world.dir/hello-world/hello-world.c.s
 .PHONY : hello-world/hello-world.c.s
 
-io/scan.o: io/scan.c.o
-.PHONY : io/scan.o
+io/io.o: io/io.c.o
+.PHONY : io/io.o
 
 # target to build an object file
-io/scan.c.o:
-	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lectures/CMakeFiles/scan.dir/build.make lectures/CMakeFiles/scan.dir/io/scan.c.o
-.PHONY : io/scan.c.o
+io/io.c.o:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lectures/CMakeFiles/scan.dir/build.make lectures/CMakeFiles/scan.dir/io/io.c.o
+.PHONY : io/io.c.o
 
-io/scan.i: io/scan.c.i
-.PHONY : io/scan.i
+io/io.i: io/io.c.i
+.PHONY : io/io.i
 
 # target to preprocess a source file
-io/scan.c.i:
-	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lectures/CMakeFiles/scan.dir/build.make lectures/CMakeFiles/scan.dir/io/scan.c.i
-.PHONY : io/scan.c.i
+io/io.c.i:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lectures/CMakeFiles/scan.dir/build.make lectures/CMakeFiles/scan.dir/io/io.c.i
+.PHONY : io/io.c.i
 
-io/scan.s: io/scan.c.s
-.PHONY : io/scan.s
+io/io.s: io/io.c.s
+.PHONY : io/io.s
 
 # target to generate assembly for a file
-io/scan.c.s:
-	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lectures/CMakeFiles/scan.dir/build.make lectures/CMakeFiles/scan.dir/io/scan.c.s
-.PHONY : io/scan.c.s
+io/io.c.s:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lectures/CMakeFiles/scan.dir/build.make lectures/CMakeFiles/scan.dir/io/io.c.s
+.PHONY : io/io.c.s
+
+types/character.o: types/character.c.o
+.PHONY : types/character.o
+
+# target to build an object file
+types/character.c.o:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lectures/CMakeFiles/character.dir/build.make lectures/CMakeFiles/character.dir/types/character.c.o
+.PHONY : types/character.c.o
+
+types/character.i: types/character.c.i
+.PHONY : types/character.i
+
+# target to preprocess a source file
+types/character.c.i:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lectures/CMakeFiles/character.dir/build.make lectures/CMakeFiles/character.dir/types/character.c.i
+.PHONY : types/character.c.i
+
+types/character.s: types/character.c.s
+.PHONY : types/character.s
+
+# target to generate assembly for a file
+types/character.c.s:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lectures/CMakeFiles/character.dir/build.make lectures/CMakeFiles/character.dir/types/character.c.s
+.PHONY : types/character.c.s
+
+types/floating.o: types/floating.c.o
+.PHONY : types/floating.o
+
+# target to build an object file
+types/floating.c.o:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lectures/CMakeFiles/floating.dir/build.make lectures/CMakeFiles/floating.dir/types/floating.c.o
+.PHONY : types/floating.c.o
+
+types/floating.i: types/floating.c.i
+.PHONY : types/floating.i
+
+# target to preprocess a source file
+types/floating.c.i:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lectures/CMakeFiles/floating.dir/build.make lectures/CMakeFiles/floating.dir/types/floating.c.i
+.PHONY : types/floating.c.i
+
+types/floating.s: types/floating.c.s
+.PHONY : types/floating.s
+
+# target to generate assembly for a file
+types/floating.c.s:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lectures/CMakeFiles/floating.dir/build.make lectures/CMakeFiles/floating.dir/types/floating.c.s
+.PHONY : types/floating.c.s
+
+types/integral.o: types/integral.c.o
+.PHONY : types/integral.o
+
+# target to build an object file
+types/integral.c.o:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lectures/CMakeFiles/integral.dir/build.make lectures/CMakeFiles/integral.dir/types/integral.c.o
+.PHONY : types/integral.c.o
+
+types/integral.i: types/integral.c.i
+.PHONY : types/integral.i
+
+# target to preprocess a source file
+types/integral.c.i:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lectures/CMakeFiles/integral.dir/build.make lectures/CMakeFiles/integral.dir/types/integral.c.i
+.PHONY : types/integral.c.i
+
+types/integral.s: types/integral.c.s
+.PHONY : types/integral.s
+
+# target to generate assembly for a file
+types/integral.c.s:
+	cd /home/hengxin/Documents/c-pl-class/c-pl-coding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lectures/CMakeFiles/integral.dir/build.make lectures/CMakeFiles/integral.dir/types/integral.c.s
+.PHONY : types/integral.c.s
 
 # Help Target
 help:
@@ -200,14 +352,30 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... character"
+	@echo "... floating"
+	@echo "... guess"
 	@echo "... hello-world"
+	@echo "... integral"
 	@echo "... scan"
+	@echo "... guess-the-number/guess.o"
+	@echo "... guess-the-number/guess.i"
+	@echo "... guess-the-number/guess.s"
 	@echo "... hello-world/hello-world.o"
 	@echo "... hello-world/hello-world.i"
 	@echo "... hello-world/hello-world.s"
-	@echo "... io/scan.o"
-	@echo "... io/scan.i"
-	@echo "... io/scan.s"
+	@echo "... io/io.o"
+	@echo "... io/io.i"
+	@echo "... io/io.s"
+	@echo "... types/character.o"
+	@echo "... types/character.i"
+	@echo "... types/character.s"
+	@echo "... types/floating.o"
+	@echo "... types/floating.i"
+	@echo "... types/floating.s"
+	@echo "... types/integral.o"
+	@echo "... types/integral.i"
+	@echo "... types/integral.s"
 .PHONY : help
 
 
